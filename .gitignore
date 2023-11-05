@@ -3,5 +3,5 @@ node_modules
 build
 
 #Files
-.env.*
+.env.*.*
 .txt
