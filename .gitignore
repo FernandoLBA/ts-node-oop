@@ -1,7 +1,17 @@
 #Folders
 node_modules
 build
+.vscode/
+log/
+.idea/
+coverage/
+.nyc_output/
 
 #Files
-.env.*.*
 .txt
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log
+package-lock.json
