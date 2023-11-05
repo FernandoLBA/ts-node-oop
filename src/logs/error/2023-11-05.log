@@ -1,0 +1,286 @@
+2023-11-05 14:45:48 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:27:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:46:30 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at /Users/fernandolba/development/my-commerce/back/src/app.ts:21:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/Users/fernandolba/development/my-commerce/back/src/app.ts:20:12)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:16:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:10:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-11-05 14:46:33 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at /Users/fernandolba/development/my-commerce/back/src/app.ts:21:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/Users/fernandolba/development/my-commerce/back/src/app.ts:20:12)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:16:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:10:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-11-05 14:46:37 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at /Users/fernandolba/development/my-commerce/back/src/app.ts:21:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/Users/fernandolba/development/my-commerce/back/src/app.ts:20:12)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:16:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:10:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-11-05 14:46:43 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at /Users/fernandolba/development/my-commerce/back/src/app.ts:21:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/Users/fernandolba/development/my-commerce/back/src/app.ts:20:12)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:16:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:10:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-11-05 14:47:06 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:29:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:09 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:29:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:13 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:29:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:16 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:29:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:32 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:30:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:35 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:30:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:38 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:30:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:46 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:30:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:55 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:31:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:47:59 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:34:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:49:00 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:34:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 14:49:37 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:34:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-7603664170202931.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+2023-11-05 15:07:26 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-17233342843339794.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-11-05 15:12:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/base.routes.ts(9,10): error TS2339: Property 'initBaseRoutes' does not exist on type 'BaseRoutes'.
+src/routes/base.routes.ts(13,5): error TS7010: '(Missing)', which lacks return-type annotation, implicitly has an 'any' return type.
+src/routes/base.routes.ts(14,5): error TS7010: '(Missing)', which lacks return-type annotation, implicitly has an 'any' return type.
+src/routes/base.routes.ts(15,10): error TS2552: Cannot find name 'initBaseRoutes'. Did you mean 'BaseRoutes'?
+src/routes/base.routes.ts(16,5): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(16,24): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(14,4): error TS1003: Identifier expected.
+src/routes/base.routes.ts(14,5): error TS1003: Identifier expected.
+src/routes/base.routes.ts(14,6): error TS1161: Unterminated regular expression literal.
+src/routes/base.routes.ts(15,3): error TS1128: Declaration or statement expected.
+src/routes/base.routes.ts(15,27): error TS1005: ';' expected.
+src/routes/base.routes.ts(23,1): error TS1128: Declaration or statement expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/base.routes.ts(9,10): error TS2339: Property 'initBaseRoutes' does not exist on type 'BaseRoutes'.
+src/routes/base.routes.ts(13,5): error TS7010: '(Missing)', which lacks return-type annotation, implicitly has an 'any' return type.
+src/routes/base.routes.ts(14,5): error TS7010: '(Missing)', which lacks return-type annotation, implicitly has an 'any' return type.
+src/routes/base.routes.ts(15,10): error TS2552: Cannot find name 'initBaseRoutes'. Did you mean 'BaseRoutes'?
+src/routes/base.routes.ts(16,5): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(16,24): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(14,4): error TS1003: Identifier expected.
+src/routes/base.routes.ts(14,5): error TS1003: Identifier expected.
+src/routes/base.routes.ts(14,6): error TS1161: Unterminated regular expression literal.
+src/routes/base.routes.ts(15,3): error TS1128: Declaration or statement expected.
+src/routes/base.routes.ts(15,27): error TS1005: ';' expected.
+src/routes/base.routes.ts(23,1): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/base.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6239629179470065.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6239629179470065.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6239629179470065.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-05 15:12:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/base.routes.ts(9,10): error TS2339: Property 'initBaseRoutes' does not exist on type 'BaseRoutes'.
+src/routes/base.routes.ts(13,10): error TS2552: Cannot find name 'initBaseRoutes'. Did you mean 'BaseRoutes'?
+src/routes/base.routes.ts(14,5): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(14,24): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(12,3): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/routes/base.routes.ts(12,4): error TS1161: Unterminated regular expression literal.
+src/routes/base.routes.ts(13,3): error TS1128: Declaration or statement expected.
+src/routes/base.routes.ts(13,27): error TS1005: ';' expected.
+src/routes/base.routes.ts(21,1): error TS1128: Declaration or statement expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/base.routes.ts(9,10): error TS2339: Property 'initBaseRoutes' does not exist on type 'BaseRoutes'.
+src/routes/base.routes.ts(13,10): error TS2552: Cannot find name 'initBaseRoutes'. Did you mean 'BaseRoutes'?
+src/routes/base.routes.ts(14,5): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(14,24): error TS2532: Object is possibly 'undefined'.
+src/routes/base.routes.ts(12,3): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/routes/base.routes.ts(12,4): error TS1161: Unterminated regular expression literal.
+src/routes/base.routes.ts(13,3): error TS1128: Declaration or statement expected.
+src/routes/base.routes.ts(13,27): error TS1005: ';' expected.
+src/routes/base.routes.ts(21,1): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/base.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6239629179470065.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6239629179470065.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6239629179470065.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)

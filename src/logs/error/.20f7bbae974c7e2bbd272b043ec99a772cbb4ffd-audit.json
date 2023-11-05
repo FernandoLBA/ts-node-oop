@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/fernandolba/development/my-commerce/back/src/logs/error/.20f7bbae974c7e2bbd272b043ec99a772cbb4ffd-audit.json",
+    "files": [
+        {
+            "date": 1699213548932,
+            "name": "/Users/fernandolba/development/my-commerce/back/src/logs/error/2023-11-05.log",
+            "hash": "e14d5d7109bdfcd374d9b07e939b7fb306ae2ed4cd91ac96e687a131f928b78b"
+        }
+    ],
+    "hashType": "sha256"
+}

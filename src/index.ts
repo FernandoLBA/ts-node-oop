@@ -1,8 +1,12 @@
-import express from 'express';
-import { NODE_ENV, PORT } from './config/config';
+import App from './app';
+import BaseRoutes from './routes/base.routes';
 
-const app = express();
+/**
+ * Aquí creamos una instancia de la calse App.
+ * La cual recibe un array de rutas, por lo tanto, enviamos
+ * un array con la instancia de la clase BaseRoutes, la cuál contendrá
+ * las rutas de la API.
+ */
+const app = new App([new BaseRoutes()]);
 
-app.listen(PORT, () => {
-  console.log(`Api running in mode ${NODE_ENV} port ${PORT}`);
-})
+app.listen();
