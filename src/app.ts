@@ -11,6 +11,7 @@ import { API_VERSION, LOG_FORMAT, NODE_ENV, PORT } from "./config/config";
 import corsConfig from "./config/cors.config";
 import { Routes } from "./interfaces/route.interface";
 import { logger, stream } from "./utils/logger";
+import { mySqlConnection } from "./db/mysql.config";
 
 class App {
   public app: Application;
@@ -49,22 +50,21 @@ class App {
   }
 
   /**
-   *
+   * Se conecta a la base de datos
    */
   private connectToDatabase() {
-    // TODO: inicializar la conexión
-    
+    mySqlConnection();
   }
 
   /**
-   *
+   * Inicializa y configura todos los middlewares de la app
    */
   private initializeMiddlewares() {
     // * Permite visualizar las peticiones HTTP
     this.app.use(morgan(LOG_FORMAT ?? "../logs", { stream }));
     // * Permite la conexión entre dominios
     this.app.use(cors(corsConfig));
-    // * Permite ***
+    // * Permite ???
     this.app.use(hpp());
     // * Brinda mayor seguridad a la API, al evitar inyecciones en los headers
     this.app.use(helmet());

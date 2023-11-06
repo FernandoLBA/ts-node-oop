@@ -702,3 +702,19 @@ src/routes/user.routes.ts(53,15): error TS2304: Cannot find name 'userBody'.
     at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:1091:32)
     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-06 02:01:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/db/mysql.config.ts(7,2): error TS1161: Unterminated regular expression literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/db/mysql.config.ts(7,2): error TS1161: Unterminated regular expression literal.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/db/mysql.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-19347010681309573.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-19347010681309573.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-19347010681309573.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
