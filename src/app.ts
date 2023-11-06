@@ -1,9 +1,10 @@
-import express, { Application } from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import express, { Application } from "express";
 import displayRoutes from "express-routemap";
 import helmet from "helmet";
 import hpp from "hpp";
+import { IncomingMessage, Server, ServerResponse } from "http";
 import morgan from "morgan";
 
 import { API_VERSION, LOG_FORMAT, NODE_ENV, PORT } from "./config/config";
@@ -15,7 +16,7 @@ class App {
   public app: Application;
   public env: string;
   public port: number;
-  public server: any;
+  public server!: Server<typeof IncomingMessage, typeof ServerResponse>;
 
   constructor(routes: Routes[]) {
     this.app = express();
