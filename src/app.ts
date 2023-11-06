@@ -53,6 +53,7 @@ class App {
    */
   private connectToDatabase() {
     // TODO: inicializar la conexión
+    
   }
 
   /**
