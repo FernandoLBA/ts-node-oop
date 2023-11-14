@@ -1,0 +1,4 @@
+2023-11-07 23:41:50 error: uncaughtException: Error trying to connect with MySql
+Error: Error trying to connect with MySql
+    at mySqlConnection (/Users/fernandolba/development/my-commerce/back/src/db/mysql.config.ts:22:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

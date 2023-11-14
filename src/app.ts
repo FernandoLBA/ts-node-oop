@@ -6,20 +6,30 @@ import helmet from "helmet";
 import hpp from "hpp";
 import { IncomingMessage, Server, ServerResponse } from "http";
 import morgan from "morgan";
+import { DataSource } from "typeorm";
 
-import { API_VERSION, LOG_FORMAT, NODE_ENV, PORT } from "./config/config";
+import {
+  API_VERSION,
+  ConfigServer,
+  LOG_FORMAT,
+  NODE_ENV,
+  PORT,
+} from "./config/config";
 import corsConfig from "./config/cors.config";
 import { Routes } from "./interfaces/route.interface";
 import { logger, stream } from "./utils/logger";
-import { mySqlConnection } from "./db/mysql.config";
 
-class App {
+class App extends ConfigServer {
   public app: Application;
   public env: string;
   public port: number;
   public server!: Server<typeof IncomingMessage, typeof ServerResponse>;
 
+  // * El constructor recibe un array de rutas
   constructor(routes: Routes[]) {
+    // * Cuando extendemos, se debe hacer una instanciación de esa clase instanciada
+    // * por eso usamo super, para tener un enlace a la clase extendida
+    super();
     this.app = express();
     this.env = NODE_ENV || "development";
     this.port = Number(PORT) || 3000;
@@ -32,7 +42,7 @@ class App {
   }
 
   /**
-   *
+   * Obtiene el servidor
    * @returns
    */
   public getServer() {
@@ -40,7 +50,7 @@ class App {
   }
 
   /**
-   *
+   * Cierra el servidor
    * @param done
    */
   public closeServer(done?: any) {
@@ -50,10 +60,18 @@ class App {
   }
 
   /**
-   * Se conecta a la base de datos
+   * Se conecta a la base de datos a través del método initConnect
+   * que pertenece la clase abstracta heredada: ConfigServer 
    */
-  private connectToDatabase() {
-    mySqlConnection();
+  private async connectToDatabase(): Promise<DataSource | void> {
+    return this.initConnect.then(() => {
+      logger.info("==================================");
+      logger.info(`========== DB Connected ==========`);
+      logger.info("==================================");
+    })
+    .catch((err) => {
+      console.error(err.message)
+    })
   }
 
   /**
@@ -77,7 +95,7 @@ class App {
   }
 
   /**
-   *
+   * Inicializa las rutas
    * @param routes
    */
   public initializeRoutes(routes: Routes[]) {

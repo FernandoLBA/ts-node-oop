@@ -1,4 +1,7 @@
 import { config } from "dotenv";
+import { DataSource } from "typeorm";
+
+import { AppDataSource } from "./data.source";
 
 // * Presetea el config de dotenv y asigna la ruta con nombre del archivo .env según el ambiente
 config({
@@ -19,3 +22,14 @@ export const {
   DB_PASSWORD,
   DB_USER,
 } = process.env;
+
+/**
+ * Esta clase abstracta tiene un método get que retorna una promesa de tipo DataSource
+ * la cual permite inicializar el servidor y esta clase puede ser heredada para
+ * utilizar este método.
+ */
+export abstract class ConfigServer {
+  get initConnect(): Promise<DataSource> {
+    return AppDataSource.initialize();
+  }
+}

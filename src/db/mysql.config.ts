@@ -4,6 +4,7 @@ import { DB_NAME, DB_PORT } from "../config/config";
 import { AppDataSource } from "../config/data.source";
 import { logger } from "../utils/logger";
 
+// TODO: Hay que eliminarlo, pues ya no se esta utilizando
 /**
  * Inicializa la conexión a la base de datos a través del DataSource de TypeORM
  * @returns 
