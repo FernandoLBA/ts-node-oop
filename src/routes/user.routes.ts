@@ -1,68 +1,35 @@
-import { Request, Response, Router } from "express";
+import { Router } from "express";
+
 import { Routes } from "../interfaces/route.interface";
+import UserController from "../user/user.controller";
 
 class UserRoutes implements Routes {
   public path = "/user";
   public router = Router();
+  public userController = new UserController();
 
   constructor() {
     this.initUserRoute();
   }
 
   /**
-   *
+   * Rutas de User
    */
   public initUserRoute() {
-    // TODO: Get all users
-    this.router.get(`${this.path}`, (_req: Request, res: Response) => {
-      return res.json({
-        ok: true,
-        message: "List of users",
-      });
-    });
+    // * Get all users
+    this.router.get(`${this.path}s`, this.userController.getAllUsers);
 
-    // TODO: Get user by Id
-    this.router.get(`${this.path}/:id`, (req: Request, res: Response) => {
-      const { id: userId } = req.params;
+    // * Get user by Id
+    this.router.get(`${this.path}/:id`, this.userController.getUserById);
 
-      return res.json({
-        ok: true,
-        message: `User's detail - ${userId}`,
-      });
-    });
+    // * Create user
+    this.router.post(`${this.path}`, this.userController.createUser);
 
-    // TODO: Create user
-    this.router.post(`${this.path}`, (req: Request, res: Response) => {
-      const { body: userBody } = req;
+    // * Update user by Id
+    this.router.put(`${this.path}/:id`, this.userController.updateUserById);
 
-      return res.json({
-        ok: true,
-        message: `User succesfully created`,
-        data: userBody,
-      });
-    });
-
-    // TODO: Update user by Id
-    this.router.put(`${this.path}/:id`, (req: Request, res: Response) => {
-      const { id: userId } = req.params;
-      const { body: userBody } = req;
-
-      return res.json({
-        ok: true,
-        message: `User succesfully updated - ${userId}`,
-        data: userBody,
-      });
-    });
-
-    // TODO: Delete user by Id
-    this.router.delete(`${this.path}/:id`, (req: Request, res: Response) => {
-      const { id: userId } = req.params;
-
-      return res.json({
-        ok: true,
-        message: `User succesfully deleted - ${userId}`,
-      });
-    });
+    // * Delete user by Id
+    this.router.delete(`${this.path}/:id`, this.userController.deleteUserById);
   }
 }
 
