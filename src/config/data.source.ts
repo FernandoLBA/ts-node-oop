@@ -2,8 +2,7 @@ import { join } from "path";
 import { DataSource, DataSourceOptions } from "typeorm";
 import { SnakeNamingStrategy } from "typeorm-naming-strategies";
 
-const { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } =
-  process.env;
+const { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } = process.env;
 
 // * Archivo de configuración de typeORM
 const configDBConnection: DataSourceOptions = {

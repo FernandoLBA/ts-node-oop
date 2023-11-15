@@ -1,6 +1,7 @@
 import { logger } from "../utils/logger";
 
 class UserService {
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
 
   /**
@@ -10,9 +11,7 @@ class UserService {
     // * retorna el nombre de la clase y el nombre del método
     logger.info(`${UserService.name} - getAllUsers 🦌`);
 
-    const users = [
-      { id: 1, fullname: "Fernando Barrios", email: "fbarrios@mail.com" },
-    ];
+    const users = [{ id: 1, fullname: "Fernando Barrios", email: "fbarrios@mail.com" }];
 
     return users;
   }
@@ -41,10 +40,7 @@ class UserService {
    */
   public async createUser(userBody: any) {
     logger.info(`${UserService.name} - createUser 🦌`);
-    console.log(
-      "🚀 ~ file: user.service.ts:39 ~ UserService ~ createUser ~ userBody:",
-      userBody
-    );
+    console.log("🚀 ~ file: user.service.ts:39 ~ UserService ~ createUser ~ userBody:", userBody);
     const newUser = { ...userBody, id: 2 };
 
     return newUser;
@@ -58,10 +54,7 @@ class UserService {
    */
   public async updateUserById(id: string, userBody: any) {
     logger.info(`${UserService.name} - updateUserById - id: ${id} 🦌`);
-    console.log(
-      "🚀 ~ file: user.service.ts:55 ~ UserService ~ updateUserById ~ userBody:",
-      userBody
-    );
+    console.log("🚀 ~ file: user.service.ts:55 ~ UserService ~ updateUserById ~ userBody:", userBody);
     const updatedUser = userBody;
 
     return { id, ...updatedUser };

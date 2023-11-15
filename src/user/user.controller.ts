@@ -5,6 +5,8 @@ import UserService from "./user.service";
 
 class UserController {
   private readonly userService: UserService = new UserService();
+
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
 
   /**
