@@ -8,13 +8,7 @@ import { IncomingMessage, Server, ServerResponse } from "http";
 import morgan from "morgan";
 import { DataSource } from "typeorm";
 
-import {
-  API_VERSION,
-  ConfigServer,
-  LOG_FORMAT,
-  NODE_ENV,
-  PORT,
-} from "./config/config";
+import { API_VERSION, ConfigServer, LOG_FORMAT, NODE_ENV, PORT } from "./config/config";
 import corsConfig from "./config/cors.config";
 import { Routes } from "./interfaces/route.interface";
 import { logger, stream } from "./utils/logger";
@@ -61,17 +55,17 @@ class App extends ConfigServer {
 
   /**
    * Se conecta a la base de datos a través del método initConnect
-   * que pertenece la clase abstracta heredada: ConfigServer 
+   * que pertenece la clase abstracta heredada: ConfigServer
    */
   private async connectToDatabase(): Promise<DataSource | void> {
-    return this.initConnect.then(() => {
-      logger.info("==================================");
-      logger.info(`========== DB Connected ==========`);
-      logger.info("==================================");
-    })
-    .catch((err) => {
-      console.error(err.message)
-    })
+    return this.initConnect
+      .then(() => {
+        logger.info(`======= 🔌 DB Connected 🔌 =======`);
+        logger.info("==================================");
+      })
+      .catch((err) => {
+        console.error(err.message);
+      });
   }
 
   /**
@@ -114,7 +108,7 @@ class App extends ConfigServer {
       displayRoutes(this.app);
       logger.info("==================================");
       logger.info(`======= ENV: "${this.env}" =======`);
-      logger.info(`🚀 App listening on port - ${this.port} 🚀`);
+      logger.info(`🦻 App listening on port - ${this.port} 🦻`);
       logger.info(`🔗 http://localhost:${this.port}/api/${API_VERSION} 🔗`);
       logger.info("==================================");
     });

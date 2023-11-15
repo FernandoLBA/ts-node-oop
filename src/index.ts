@@ -1,6 +1,6 @@
-import App from './app';
-import BaseRoutes from './routes/base.routes';
-import UserRoutes from './routes/user.routes';
+import App from "./app";
+import BaseRoutes from "./routes/base.routes";
+import UserRoutes from "./routes/user.routes";
 
 /**
  * Aquí creamos una instancia de la calse App.

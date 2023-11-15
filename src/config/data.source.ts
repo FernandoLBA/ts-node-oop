@@ -1,6 +1,12 @@
+import { config } from "dotenv";
 import { join } from "path";
 import { DataSource, DataSourceOptions } from "typeorm";
 import { SnakeNamingStrategy } from "typeorm-naming-strategies";
+
+// * Presetea el config de dotenv y asigna la ruta con nombre del archivo .env según el ambiente
+config({
+  path: `.env.${process.env.NODE_ENV || "development"}.local`,
+});
 
 const { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } = process.env;
 
