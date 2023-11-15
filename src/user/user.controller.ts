@@ -1,7 +1,10 @@
 import { Request, Response } from "express";
+
 import { logger } from "../utils/logger";
+import UserService from "./user.service";
 
 class UserController {
+  private readonly userService: UserService = new UserService();
   constructor() {}
 
   /**
@@ -13,9 +16,11 @@ class UserController {
   public getAllUsers = async (_req: Request, res: Response) => {
     // * Identificamos cual controller y método se ejecuta
     logger.info(`${UserController.name} - getAllUsers 🦁`);
+    const usersResponse = await this.userService.getAllUsers();
 
     return res.json({
       ok: true,
+      users: usersResponse,
       message: "List of users",
     });
   };
@@ -28,11 +33,12 @@ class UserController {
    */
   public getUserById = async (req: Request, res: Response) => {
     const { id: userId } = req.params;
-
     logger.info(`${UserController.name} - getUserById - id: ${userId} 🦁`);
+    const user = await this.userService.getUserById(userId);
 
     return res.json({
       ok: true,
+      user,
       message: `User's detail - ${userId}`,
     });
   };
@@ -45,19 +51,14 @@ class UserController {
    */
   public createUser = async (req: Request, res: Response) => {
     const { body: userBody } = req;
-
     logger.info(`${UserController.name} - createUser 🦁`);
-    console.log(
-      "🚀 ~ file: user.controller.ts:50 ~ UserController ~ createUser= ~ userBody:",
-      userBody
-    );
-
     const { email } = userBody;
+    const newUser = await this.userService.createUser(userBody);
 
     return res.json({
       ok: true,
+      user: newUser,
       message: `User succesfully created with email: ${email}`,
-      data: userBody,
     });
   };
 
@@ -70,17 +71,13 @@ class UserController {
   public updateUserById = async (req: Request, res: Response) => {
     const { id: userId } = req.params;
     const { body: userBody } = req;
-
     logger.info(`${UserController.name} - updateUserById - id: ${userId} 🦁`);
-    console.log(
-      "🚀 ~ file: user.controller.ts:70 ~ UserController ~ updateUserById= ~ userBody:",
-      userBody
-    );
+    const updatedUser = await this.userService.updateUserById(userId, userBody);
 
     return res.json({
       ok: true,
       message: `User succesfully updated - ${userId}`,
-      data: userBody,
+      user: updatedUser,
     });
   };
 
@@ -92,11 +89,12 @@ class UserController {
    */
   public deleteUserById = async (req: Request, res: Response) => {
     const { id: userId } = req.params;
-
     logger.info(`${UserController.name} - deleteUserById - id: ${userId} 🦁`);
+    const deletedUser = await this.userService.deleteUserById(userId);
 
     return res.json({
       ok: true,
+      user: deletedUser,
       message: `User succesfully deleted - ${userId}`,
     });
   };
