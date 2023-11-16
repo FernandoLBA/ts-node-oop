@@ -1,5 +1,7 @@
-import { Column, Entity, JoinColumn, OneToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, JoinColumn, OneToMany, OneToOne, PrimaryGeneratedColumn } from "typeorm";
+
 import { UserEntity } from "../../user/entities/user.entity";
+import { TestimonialEntity } from "../../testimonial/entities/testimonial.entity";
 
 @Entity({ name: "customer" })
 export class CustomerEntity {
@@ -7,13 +9,21 @@ export class CustomerEntity {
   id!: string;
 
   @Column()
+  name!: string;
+
+  @Column()
   createdAt!: Date;
 
   @Column()
   updatedAt!: Date;
 
-  // * Relacion 1:1 con user
+  // * Relacion 1:1 con user, y relaciona a user con customer
   @OneToOne(() => UserEntity, (user) => user.customer)
+  // * crea una columna user_id (Foreign key) para relacionarse con user
   @JoinColumn({ name: "user_id" })
   user!: UserEntity;
+
+  // * Relación 1:N con testimonial, relaciona a testimonial con customer
+  @OneToMany(() => TestimonialEntity, (testimonial) => testimonial.customer)
+  testimonials!: TestimonialEntity;
 }
