@@ -1,6 +1,6 @@
 import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { CustomerEntity } from "../../customer/entities/customer.entity";
-import { TestimonialUsageEntity } from "../../custom/entities/testimonial-usage.entity";
+import { TestimonialUsageEntity } from "./testimonial-usage.entity";
 
 @Entity({ name: "testimonial" })
 export class TestimonialEntity {
