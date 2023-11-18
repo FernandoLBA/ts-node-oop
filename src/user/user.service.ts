@@ -1,17 +1,26 @@
+import { UpdateResult } from "typeorm";
+import { BaseService } from "../config/base.service";
 import { logger } from "../utils/logger";
+import { UserEntity } from "./entities/user.entity";
+import { UserDTO } from "./dto/user.dto";
 
-class UserService {
+class UserService extends BaseService<UserEntity> {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor() {}
+  constructor() {
+    // * La clase BaseService recibe la entidad al cual se conectará
+    super(UserEntity);
+  }
 
   /**
    * getAllUsers
    */
-  public async getAllUsers() {
+  public async getAllUsers(): Promise<UserEntity[]> {
     // * retorna el nombre de la clase y el nombre del método
     logger.info(`${UserService.name} - getAllUsers 🦌`);
 
-    const users = [{ id: 1, fullname: "Fernando Barrios", email: "fbarrios@mail.com" }];
+    // * Acá comenzamos a usar el repositorio devuelto de la clase BaseService
+    // * el cual nos dará acceso a los métodos del repositorio
+    const users = await (await this.useRepository).find();
 
     return users;
   }
@@ -21,14 +30,14 @@ class UserService {
    * @param id
    * @returns
    */
-  public async getUserById(id: string) {
+  public async getUserById(id: string): Promise<UserEntity | null> {
     logger.info(`${UserService.name} - getUserById - id: ${id} 🦌`);
+    const user = await (await this.useRepository).findOneBy({ id });
 
-    const user = {
-      id: 1,
-      fullname: "Fernando Barrios",
-      email: "fbarrios@mail.com",
-    };
+    if (!user) {
+      // TODO: agregar o retornar error
+      console.log("Error no se encontro el usuario");
+    }
 
     return user;
   }
@@ -38,12 +47,12 @@ class UserService {
    * @param userBody
    * @returns
    */
-  public async createUser(userBody: any) {
+  public async createUser(userBody: UserDTO) {
     logger.info(`${UserService.name} - createUser 🦌`);
     console.log("🚀 ~ file: user.service.ts:39 ~ UserService ~ createUser ~ userBody:", userBody);
-    const newUser = { ...userBody, id: 2 };
+    const newUser = await (await this.useRepository).create(userBody);
 
-    return newUser;
+    return (await this.useRepository).save(newUser);
   }
 
   /**
@@ -52,23 +61,29 @@ class UserService {
    * @param userBody
    * @returns
    */
-  public async updateUserById(id: string, userBody: any) {
+  public async updateUserById(id: string, userBody: any): Promise<UpdateResult | null> {
     logger.info(`${UserService.name} - updateUserById - id: ${id} 🦌`);
     console.log("🚀 ~ file: user.service.ts:55 ~ UserService ~ updateUserById ~ userBody:", userBody);
-    const updatedUser = userBody;
+    const findUser = await (await this.useRepository).findOneBy({ id });
 
-    return { id, ...updatedUser };
+    if (!findUser) {
+      // TODO: agregar o retornar un error
+      console.log("El usuario no existe");
+    }
+
+    return await (await this.useRepository).update(id, { ...userBody });
   }
 
   public async deleteUserById(id: string) {
     logger.info(`${UserService.name} - deleteUserById - id: ${id} 🦌`);
-    const deletedUser = {
-      id,
-      fullname: "Pedro Pérez",
-      email: "pperez@correo.com",
-    };
+    const findUser = await (await this.useRepository).findOneBy({ id });
 
-    return deletedUser;
+    if (!findUser) {
+      // TODO: agregar o retornar un error
+      console.log("El usuario no existe");
+    }
+
+    return await (await this.useRepository).delete(id);
   }
 }
 

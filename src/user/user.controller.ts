@@ -4,10 +4,8 @@ import { logger } from "../utils/logger";
 import UserService from "./user.service";
 
 class UserController {
-  private readonly userService: UserService = new UserService();
-
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor() {}
+  constructor(private readonly userService: UserService = new UserService()) {}
 
   /**
    *

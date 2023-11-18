@@ -1,9 +1,10 @@
-import { Column, Entity, OneToOne, PrimaryGeneratedColumn, Unique } from "typeorm";
+import { Column, CreateDateColumn, Entity, OneToOne, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from "typeorm";
 
 import { CustomerEntity } from "../../customer/entities/customer.entity";
+import { User } from "../../interfaces/user.interface";
 
 @Entity({ name: "user" })
-export class UserEntity {
+export class UserEntity implements User {
   @PrimaryGeneratedColumn()
   id!: string;
 
@@ -17,13 +18,23 @@ export class UserEntity {
   @Unique(["email"])
   email!: string;
 
+  // * el select hace que cuando se pida la data no traiga la password
+  @Column({ select: false })
+  password!: string;
+
   @Column()
   gender!: string;
 
+  // * Opción con configuración y sin usar @Column
+  /* @CreateDateColumn({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)" }) */
   @Column()
+  @CreateDateColumn()
   createdAt!: Date;
 
+  // * Opción con configuración y sin usar @Column
+  // @UpdateDateColumn({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)", onUpdate: "CURRENT_TIMESTAMP(6)" })
   @Column()
+  @UpdateDateColumn()
   updatedAt!: Date;
 
   // * Relacion 1:1 con customer, y relaciona a customer con user
