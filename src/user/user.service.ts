@@ -1,8 +1,9 @@
-import { UpdateResult } from "typeorm";
+import { DeleteResult, UpdateResult } from "typeorm";
 import { BaseService } from "../config/base.service";
 import { logger } from "../utils/logger";
 import { UserEntity } from "./entities/user.entity";
 import { UserDTO } from "./dto/user.dto";
+import { createHashValue } from "../utils/hash";
 
 class UserService extends BaseService<UserEntity> {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -47,10 +48,11 @@ class UserService extends BaseService<UserEntity> {
    * @param userBody
    * @returns
    */
-  public async createUser(userBody: UserDTO) {
+  public async createUser(userBody: UserDTO): Promise<UserEntity | null> {
     logger.info(`${UserService.name} - createUser 🦌`);
     console.log("🚀 ~ file: user.service.ts:39 ~ UserService ~ createUser ~ userBody:", userBody);
-    const newUser = await (await this.useRepository).create(userBody);
+    const hashedPassword = await createHashValue(userBody.password);
+    const newUser = await (await this.useRepository).create({ ...userBody, password: hashedPassword });
 
     return (await this.useRepository).save(newUser);
   }
@@ -74,7 +76,7 @@ class UserService extends BaseService<UserEntity> {
     return await (await this.useRepository).update(id, { ...userBody });
   }
 
-  public async deleteUserById(id: string) {
+  public async deleteUserById(id: string): Promise<DeleteResult | null> {
     logger.info(`${UserService.name} - deleteUserById - id: ${id} 🦌`);
     const findUser = await (await this.useRepository).findOneBy({ id });
 

@@ -1,4 +1,13 @@
-import { Column, Entity, JoinColumn, OneToMany, OneToOne, PrimaryGeneratedColumn } from "typeorm";
+import {
+  Column,
+  CreateDateColumn,
+  Entity,
+  JoinColumn,
+  OneToMany,
+  OneToOne,
+  PrimaryGeneratedColumn,
+  UpdateDateColumn,
+} from "typeorm";
 
 import { UserEntity } from "../../user/entities/user.entity";
 import { TestimonialEntity } from "../../testimonial/entities/testimonial.entity";
@@ -12,9 +21,11 @@ export class CustomerEntity {
   name!: string;
 
   @Column()
+  @CreateDateColumn()
   createdAt!: Date;
 
   @Column()
+  @UpdateDateColumn()
   updatedAt!: Date;
 
   // * Relacion 1:1 con user, y relaciona a user con customer

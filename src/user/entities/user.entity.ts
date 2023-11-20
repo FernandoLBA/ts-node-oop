@@ -1,10 +1,9 @@
 import { Column, CreateDateColumn, Entity, OneToOne, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from "typeorm";
 
 import { CustomerEntity } from "../../customer/entities/customer.entity";
-import { User } from "../../interfaces/user.interface";
 
 @Entity({ name: "user" })
-export class UserEntity implements User {
+export class UserEntity {
   @PrimaryGeneratedColumn()
   id!: string;
 

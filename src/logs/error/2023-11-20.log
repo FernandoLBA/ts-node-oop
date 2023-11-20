@@ -1,0 +1,670 @@
+2023-11-20 11:44:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(4,1): error TS6133: 'User' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(4,1): error TS6133: 'User' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:45:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(77,16): error TS2391: Function implementation is missing or not immediately following the declaration.
+src/user/user.service.ts(77,44): error TS1064: The return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<{}>'?
+src/user/user.service.ts(78,5): error TS7008: Member 'logger' implicitly has an 'any' type.
+src/user/user.service.ts(78,12): error TS2391: Function implementation is missing or not immediately following the declaration.
+src/user/user.service.ts(78,12): error TS7010: 'info', which lacks return-type annotation, implicitly has an 'any' return type.
+src/user/user.service.ts(78,17): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/user/user.service.ts(78,20): error TS7006: Parameter 'UserService' implicitly has an 'any' type.
+src/user/user.service.ts(78,32): error TS7006: Parameter 'name' implicitly has an 'any' type.
+src/user/user.service.ts(78,40): error TS2304: Cannot find name 'deleteUserById'.
+src/user/user.service.ts(78,57): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(78,61): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.service.ts(78,63): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(78,5): error TS1131: Property or signature expected.
+src/user/user.service.ts(78,11): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/user/user.service.ts(78,17): error TS1003: Identifier expected.
+src/user/user.service.ts(78,31): error TS1005: ',' expected.
+src/user/user.service.ts(78,36): error TS1005: ',' expected.
+src/user/user.service.ts(78,59): error TS1005: ';' expected.
+src/user/user.service.ts(78,61): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(78,67): error TS1127: Invalid character.
+src/user/user.service.ts(91,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(77,16): error TS2391: Function implementation is missing or not immediately following the declaration.
+src/user/user.service.ts(77,44): error TS1064: The return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<{}>'?
+src/user/user.service.ts(78,5): error TS7008: Member 'logger' implicitly has an 'any' type.
+src/user/user.service.ts(78,12): error TS2391: Function implementation is missing or not immediately following the declaration.
+src/user/user.service.ts(78,12): error TS7010: 'info', which lacks return-type annotation, implicitly has an 'any' return type.
+src/user/user.service.ts(78,17): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/user/user.service.ts(78,20): error TS7006: Parameter 'UserService' implicitly has an 'any' type.
+src/user/user.service.ts(78,32): error TS7006: Parameter 'name' implicitly has an 'any' type.
+src/user/user.service.ts(78,40): error TS2304: Cannot find name 'deleteUserById'.
+src/user/user.service.ts(78,57): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(78,61): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.service.ts(78,63): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(78,5): error TS1131: Property or signature expected.
+src/user/user.service.ts(78,11): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/user/user.service.ts(78,17): error TS1003: Identifier expected.
+src/user/user.service.ts(78,31): error TS1005: ',' expected.
+src/user/user.service.ts(78,36): error TS1005: ',' expected.
+src/user/user.service.ts(78,59): error TS1005: ';' expected.
+src/user/user.service.ts(78,61): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(78,67): error TS1127: Invalid character.
+src/user/user.service.ts(91,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:45:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(77,44): error TS2314: Generic type 'Promise<T>' requires 1 type argument(s).
+src/user/user.service.ts(77,51): error TS1099: Type argument list cannot be empty.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(77,44): error TS2314: Generic type 'Promise<T>' requires 1 type argument(s).
+src/user/user.service.ts(77,51): error TS1099: Type argument list cannot be empty.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:45:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(77,52): error TS2304: Cannot find name 'DeleteRe'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(77,52): error TS2304: Cannot find name 'DeleteRe'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:46:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(50,47): error TS2314: Generic type 'Promise<T>' requires 1 type argument(s).
+src/user/user.service.ts(50,54): error TS1099: Type argument list cannot be empty.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(50,47): error TS2314: Generic type 'Promise<T>' requires 1 type argument(s).
+src/user/user.service.ts(50,54): error TS1099: Type argument list cannot be empty.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:46:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(50,55): error TS2304: Cannot find name 'UserE'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(50,55): error TS2304: Cannot find name 'UserE'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:46:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(50,27): error TS6133: 'userBody' is declared but its value is never read.
+src/user/user.service.ts(50,67): error TS18050: The value 'null' cannot be used here.
+src/user/user.service.ts(52,89): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(53,11): error TS2304: Cannot find name 'newUser'.
+src/user/user.service.ts(53,34): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(53,61): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(55,13): error TS6133: 'await' is declared but its value is never read.
+src/user/user.service.ts(55,13): error TS7006: Parameter 'await' implicitly has an 'any' type.
+src/user/user.service.ts(55,19): error TS2680: A 'this' parameter must be the first parameter.
+src/user/user.service.ts(55,44): error TS2304: Cannot find name 'newUser'.
+src/user/user.service.ts(64,3): error TS2304: Cannot find name 'public'.
+src/user/user.service.ts(64,10): error TS2304: Cannot find name 'async'.
+src/user/user.service.ts(64,16): error TS2304: Cannot find name 'updateUserById'.
+src/user/user.service.ts(64,31): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(64,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/user/user.service.ts(64,43): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(64,63): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UpdateResult'.
+src/user/user.service.ts(64,63): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/user/user.service.ts(64,86): error TS18050: The value 'null' cannot be used here.
+src/user/user.service.ts(65,63): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(66,93): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(67,11): error TS2304: Cannot find name 'findUser'.
+src/user/user.service.ts(67,35): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(67,67): error TS18004: No value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+src/user/user.service.ts(69,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/user/user.service.ts(69,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/user/user.service.ts(74,25): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(74,52): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(74,61): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(77,3): error TS2304: Cannot find name 'public'.
+src/user/user.service.ts(77,10): error TS2304: Cannot find name 'async'.
+src/user/user.service.ts(77,16): error TS2304: Cannot find name 'deleteUserById'.
+src/user/user.service.ts(77,31): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(77,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/user/user.service.ts(77,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof DeleteResult'.
+src/user/user.service.ts(77,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/user/user.service.ts(77,67): error TS18050: The value 'null' cannot be used here.
+src/user/user.service.ts(78,63): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(79,11): error TS2304: Cannot find name 'findUser'.
+src/user/user.service.ts(79,35): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(79,67): error TS18004: No value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+src/user/user.service.ts(81,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/user/user.service.ts(81,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/user/user.service.ts(86,25): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(86,52): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(51,11): error TS1005: ',' expected.
+src/user/user.service.ts(51,55): error TS1005: ',' expected.
+src/user/user.service.ts(52,12): error TS1005: ',' expected.
+src/user/user.service.ts(52,98): error TS1005: ',' expected.
+src/user/user.service.ts(53,11): error TS1005: ':' expected.
+src/user/user.service.ts(53,70): error TS1005: ',' expected.
+src/user/user.service.ts(55,19): error TS1005: ',' expected.
+src/user/user.service.ts(55,23): error TS1005: ',' expected.
+src/user/user.service.ts(55,37): error TS1005: ',' expected.
+src/user/user.service.ts(55,38): error TS1003: Identifier expected.
+src/user/user.service.ts(55,52): error TS1005: ',' expected.
+src/user/user.service.ts(64,3): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(64,10): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(64,33): error TS1005: ',' expected.
+src/user/user.service.ts(64,51): error TS1005: ',' expected.
+src/user/user.service.ts(64,61): error TS1005: ';' expected.
+src/user/user.service.ts(65,11): error TS1005: ',' expected.
+src/user/user.service.ts(65,71): error TS1005: ',' expected.
+src/user/user.service.ts(66,12): error TS1005: ',' expected.
+src/user/user.service.ts(66,102): error TS1005: ',' expected.
+src/user/user.service.ts(67,11): error TS1005: ':' expected.
+src/user/user.service.ts(67,72): error TS1005: ',' expected.
+src/user/user.service.ts(69,9): error TS1003: Identifier expected.
+src/user/user.service.ts(74,5): error TS1005: ',' expected.
+src/user/user.service.ts(74,12): error TS1005: ':' expected.
+src/user/user.service.ts(74,72): error TS1005: ',' expected.
+src/user/user.service.ts(77,3): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(77,10): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(77,33): error TS1005: ',' expected.
+src/user/user.service.ts(77,42): error TS1005: ';' expected.
+src/user/user.service.ts(78,11): error TS1005: ',' expected.
+src/user/user.service.ts(78,71): error TS1005: ',' expected.
+src/user/user.service.ts(79,11): error TS1005: ':' expected.
+src/user/user.service.ts(79,72): error TS1005: ',' expected.
+src/user/user.service.ts(81,9): error TS1003: Identifier expected.
+src/user/user.service.ts(86,5): error TS1005: ',' expected.
+src/user/user.service.ts(86,12): error TS1005: ':' expected.
+src/user/user.service.ts(86,55): error TS1005: ',' expected.
+src/user/user.service.ts(88,1): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(50,27): error TS6133: 'userBody' is declared but its value is never read.
+src/user/user.service.ts(50,67): error TS18050: The value 'null' cannot be used here.
+src/user/user.service.ts(52,89): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(53,11): error TS2304: Cannot find name 'newUser'.
+src/user/user.service.ts(53,34): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(53,61): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(55,13): error TS6133: 'await' is declared but its value is never read.
+src/user/user.service.ts(55,13): error TS7006: Parameter 'await' implicitly has an 'any' type.
+src/user/user.service.ts(55,19): error TS2680: A 'this' parameter must be the first parameter.
+src/user/user.service.ts(55,44): error TS2304: Cannot find name 'newUser'.
+src/user/user.service.ts(64,3): error TS2304: Cannot find name 'public'.
+src/user/user.service.ts(64,10): error TS2304: Cannot find name 'async'.
+src/user/user.service.ts(64,16): error TS2304: Cannot find name 'updateUserById'.
+src/user/user.service.ts(64,31): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(64,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/user/user.service.ts(64,43): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(64,63): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UpdateResult'.
+src/user/user.service.ts(64,63): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/user/user.service.ts(64,86): error TS18050: The value 'null' cannot be used here.
+src/user/user.service.ts(65,63): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(66,93): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(67,11): error TS2304: Cannot find name 'findUser'.
+src/user/user.service.ts(67,35): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(67,67): error TS18004: No value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+src/user/user.service.ts(69,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/user/user.service.ts(69,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/user/user.service.ts(74,25): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(74,52): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(74,61): error TS2304: Cannot find name 'userBody'.
+src/user/user.service.ts(77,3): error TS2304: Cannot find name 'public'.
+src/user/user.service.ts(77,10): error TS2304: Cannot find name 'async'.
+src/user/user.service.ts(77,16): error TS2304: Cannot find name 'deleteUserById'.
+src/user/user.service.ts(77,31): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(77,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/user/user.service.ts(77,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof DeleteResult'.
+src/user/user.service.ts(77,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/user/user.service.ts(77,67): error TS18050: The value 'null' cannot be used here.
+src/user/user.service.ts(78,63): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(79,11): error TS2304: Cannot find name 'findUser'.
+src/user/user.service.ts(79,35): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(79,67): error TS18004: No value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+src/user/user.service.ts(81,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/user/user.service.ts(81,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/user/user.service.ts(86,25): error TS2532: Object is possibly 'undefined'.
+src/user/user.service.ts(86,52): error TS2304: Cannot find name 'id'.
+src/user/user.service.ts(51,11): error TS1005: ',' expected.
+src/user/user.service.ts(51,55): error TS1005: ',' expected.
+src/user/user.service.ts(52,12): error TS1005: ',' expected.
+src/user/user.service.ts(52,98): error TS1005: ',' expected.
+src/user/user.service.ts(53,11): error TS1005: ':' expected.
+src/user/user.service.ts(53,70): error TS1005: ',' expected.
+src/user/user.service.ts(55,19): error TS1005: ',' expected.
+src/user/user.service.ts(55,23): error TS1005: ',' expected.
+src/user/user.service.ts(55,37): error TS1005: ',' expected.
+src/user/user.service.ts(55,38): error TS1003: Identifier expected.
+src/user/user.service.ts(55,52): error TS1005: ',' expected.
+src/user/user.service.ts(64,3): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(64,10): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(64,33): error TS1005: ',' expected.
+src/user/user.service.ts(64,51): error TS1005: ',' expected.
+src/user/user.service.ts(64,61): error TS1005: ';' expected.
+src/user/user.service.ts(65,11): error TS1005: ',' expected.
+src/user/user.service.ts(65,71): error TS1005: ',' expected.
+src/user/user.service.ts(66,12): error TS1005: ',' expected.
+src/user/user.service.ts(66,102): error TS1005: ',' expected.
+src/user/user.service.ts(67,11): error TS1005: ':' expected.
+src/user/user.service.ts(67,72): error TS1005: ',' expected.
+src/user/user.service.ts(69,9): error TS1003: Identifier expected.
+src/user/user.service.ts(74,5): error TS1005: ',' expected.
+src/user/user.service.ts(74,12): error TS1005: ':' expected.
+src/user/user.service.ts(74,72): error TS1005: ',' expected.
+src/user/user.service.ts(77,3): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(77,10): error TS1434: Unexpected keyword or identifier.
+src/user/user.service.ts(77,33): error TS1005: ',' expected.
+src/user/user.service.ts(77,42): error TS1005: ';' expected.
+src/user/user.service.ts(78,11): error TS1005: ',' expected.
+src/user/user.service.ts(78,71): error TS1005: ',' expected.
+src/user/user.service.ts(79,11): error TS1005: ':' expected.
+src/user/user.service.ts(79,72): error TS1005: ',' expected.
+src/user/user.service.ts(81,9): error TS1003: Identifier expected.
+src/user/user.service.ts(86,5): error TS1005: ',' expected.
+src/user/user.service.ts(86,12): error TS1005: ':' expected.
+src/user/user.service.ts(86,55): error TS1005: ',' expected.
+src/user/user.service.ts(88,1): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:48:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(14,4): error TS2304: Cannot find name 'Create'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(14,4): error TS2304: Cannot find name 'Create'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:48:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(17,4): error TS2552: Cannot find name 'Update'. Did you mean 'Date'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(17,4): error TS2552: Cannot find name 'Update'. Did you mean 'Date'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:50:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial-usage.entity.ts(14,3): error TS2304: Cannot find name 'createdAt'.
+src/testimonial/entities/testimonial-usage.entity.ts(14,13): error TS2564: Property '(Missing)' has no initializer and is not definitely assigned in the constructor.
+src/testimonial/entities/testimonial-usage.entity.ts(14,13): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial-usage.entity.ts(14,3): error TS2304: Cannot find name 'createdAt'.
+src/testimonial/entities/testimonial-usage.entity.ts(14,13): error TS2564: Property '(Missing)' has no initializer and is not definitely assigned in the constructor.
+src/testimonial/entities/testimonial-usage.entity.ts(14,13): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/testimonial/entities/testimonial-usage.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:50:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial-usage.entity.ts(13,3): error TS1329: 'CreateDateColumn' accepts too few arguments to be used as a decorator here. Did you mean to call it first and write '@CreateDateColumn()'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial-usage.entity.ts(13,3): error TS1329: 'CreateDateColumn' accepts too few arguments to be used as a decorator here. Did you mean to call it first and write '@CreateDateColumn()'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/testimonial/entities/testimonial-usage.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:50:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial-usage.entity.ts(17,4): error TS2552: Cannot find name 'UpdateDateColumn'. Did you mean 'CreateDateColumn'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial-usage.entity.ts(17,4): error TS2552: Cannot find name 'UpdateDateColumn'. Did you mean 'CreateDateColumn'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/testimonial/entities/testimonial-usage.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:51:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial.entity.ts(36,3): error TS2304: Cannot find name 'createdAt'.
+src/testimonial/entities/testimonial.entity.ts(36,13): error TS2564: Property '(Missing)' has no initializer and is not definitely assigned in the constructor.
+src/testimonial/entities/testimonial.entity.ts(36,13): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial.entity.ts(36,3): error TS2304: Cannot find name 'createdAt'.
+src/testimonial/entities/testimonial.entity.ts(36,13): error TS2564: Property '(Missing)' has no initializer and is not definitely assigned in the constructor.
+src/testimonial/entities/testimonial.entity.ts(36,13): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/testimonial/entities/testimonial.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 11:51:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial.entity.ts(35,4): error TS2304: Cannot find name 'Crea'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/entities/testimonial.entity.ts(35,4): error TS2304: Cannot find name 'Crea'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/testimonial/entities/testimonial.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(53,11): error TS1155: 'const' declarations must be initialized.
+src/user/user.service.ts(53,11): error TS6133: 'has' is declared but its value is never read.
+src/user/user.service.ts(53,11): error TS7005: Variable 'has' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(53,11): error TS1155: 'const' declarations must be initialized.
+src/user/user.service.ts(53,11): error TS6133: 'has' is declared but its value is never read.
+src/user/user.service.ts(53,11): error TS7005: Variable 'has' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,5): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,5): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,5): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,5): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,5): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,5): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(53,11): error TS6133: 'hashedPassword' is declared but its value is never read.
+src/user/user.service.ts(53,34): error TS2304: Cannot find name 'create'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(53,11): error TS6133: 'hashedPassword' is declared but its value is never read.
+src/user/user.service.ts(53,34): error TS2304: Cannot find name 'create'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,11): error TS6133: 'hashedPassword' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(54,11): error TS6133: 'hashedPassword' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:10:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(53,11): error TS6133: 'hashedPassword' is declared but its value is never read.
+src/user/user.service.ts(53,34): error TS2304: Cannot find name 'createHash'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(53,11): error TS6133: 'hashedPassword' is declared but its value is never read.
+src/user/user.service.ts(53,34): error TS2304: Cannot find name 'createHash'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5017695397619315.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:15:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,15): error TS2462: A rest element must be last in a destructuring pattern.
+src/user/user.controller.ts(56,24): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+src/user/user.controller.ts(56,24): error TS6133: 'password' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,15): error TS2462: A rest element must be last in a destructuring pattern.
+src/user/user.controller.ts(56,24): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+src/user/user.controller.ts(56,24): error TS6133: 'password' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:15:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,16): error TS2462: A rest element must be last in a destructuring pattern.
+src/user/user.controller.ts(56,25): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+src/user/user.controller.ts(56,25): error TS6133: 'password' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,16): error TS2462: A rest element must be last in a destructuring pattern.
+src/user/user.controller.ts(56,25): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+src/user/user.controller.ts(56,25): error TS6133: 'password' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:15:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:16:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:16:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS2339: Property 'password' does not exist on type 'UserEntity | null'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 12:16:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS7031: Binding element 'password' implicitly has an 'any' type.
+src/user/user.controller.ts(60,13): error TS2454: Variable 'newUser' is used before being assigned.
+src/user/user.controller.ts(56,79): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,13): error TS7031: Binding element 'password' implicitly has an 'any' type.
+src/user/user.controller.ts(60,13): error TS2454: Variable 'newUser' is used before being assigned.
+src/user/user.controller.ts(56,79): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6762447532028815.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
