@@ -27,12 +27,14 @@ export class UserEntity implements User {
 
   // * Opción con configuración y sin usar @Column
   /* @CreateDateColumn({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)" }) */
+  // * Opción sin configuración y con @Column
   @Column()
   @CreateDateColumn()
   createdAt!: Date;
 
   // * Opción con configuración y sin usar @Column
   // @UpdateDateColumn({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)", onUpdate: "CURRENT_TIMESTAMP(6)" })
+  // * Opción sin configuración y con @Column
   @Column()
   @UpdateDateColumn()
   updatedAt!: Date;

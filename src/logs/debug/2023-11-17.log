@@ -168,3 +168,72 @@
 2023-11-17 22:25:20 info: ==================================
 2023-11-17 22:25:20 info: ======= 🔌 DB Connected 🔌 =======
 2023-11-17 22:25:20 info: ==================================
+2023-11-17 22:28:07 info: ==================================
+2023-11-17 22:28:07 info: ======= ENV: "development" =======
+2023-11-17 22:28:07 info: 🦻 App listening on port - 3001 🦻
+2023-11-17 22:28:07 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-17 22:28:07 info: ==================================
+2023-11-17 22:28:07 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-17 22:28:07 info: ==================================
+2023-11-17 22:28:14 info: ==================================
+2023-11-17 22:28:14 info: ======= ENV: "development" =======
+2023-11-17 22:28:14 info: 🦻 App listening on port - 3001 🦻
+2023-11-17 22:28:14 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-17 22:28:14 info: ==================================
+2023-11-17 22:28:14 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-17 22:28:14 info: ==================================
+2023-11-17 22:28:16 info: ==================================
+2023-11-17 22:28:16 info: ======= ENV: "development" =======
+2023-11-17 22:28:16 info: 🦻 App listening on port - 3001 🦻
+2023-11-17 22:28:16 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-17 22:28:16 info: ==================================
+2023-11-17 22:28:16 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-17 22:28:16 info: ==================================
+2023-11-17 22:28:19 info: ==================================
+2023-11-17 22:28:19 info: ======= ENV: "development" =======
+2023-11-17 22:28:19 info: 🦻 App listening on port - 3001 🦻
+2023-11-17 22:28:19 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-17 22:28:19 info: ==================================
+2023-11-17 22:28:19 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-17 22:28:19 info: ==================================
+2023-11-17 22:28:36 info: ==================================
+2023-11-17 22:28:36 info: ======= ENV: "development" =======
+2023-11-17 22:28:36 info: 🦻 App listening on port - 3001 🦻
+2023-11-17 22:28:36 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-17 22:28:36 info: ==================================
+2023-11-17 22:28:36 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-17 22:28:36 info: ==================================
+2023-11-17 22:29:06 info: UserController - getAllUsers 🦁
+2023-11-17 22:29:06 info: UserService - getAllUsers 🦌
+2023-11-17 22:29:06 info: [0mGET /api/v1/users [32m200[0m 20.576 ms - 373[0m
+2023-11-17 22:35:34 info: UserController - updateUserById - id: 2 🦁
+2023-11-17 22:35:34 info: UserService - updateUserById - id: 2 🦌
+2023-11-17 22:35:34 info: [0mPUT /api/v1/user/2 [32m200[0m 67.171 ms - 102[0m
+2023-11-17 22:35:38 info: UserController - getAllUsers 🦁
+2023-11-17 22:35:38 info: UserService - getAllUsers 🦌
+2023-11-17 22:35:38 info: [0mGET /api/v1/users [32m200[0m 8.281 ms - 378[0m
+2023-11-17 22:35:47 info: UserController - getUserById - id: 2 🦁
+2023-11-17 22:35:47 info: UserService - getUserById - id: 2 🦌
+2023-11-17 22:35:47 info: [0mGET /api/v1/user/2 [32m200[0m 9.609 ms - 209[0m
+2023-11-17 22:37:04 info: UserController - deleteUserById - id: 2 🦁
+2023-11-17 22:37:04 info: UserService - deleteUserById - id: 2 🦌
+2023-11-17 22:37:04 info: [0mDELETE /api/v1/user/2 [32m200[0m 25.353 ms - 83[0m
+2023-11-17 22:37:08 info: UserController - getUserById - id: 2 🦁
+2023-11-17 22:37:08 info: UserService - getUserById - id: 2 🦌
+2023-11-17 22:37:08 info: [0mGET /api/v1/user/2 [32m200[0m 7.429 ms - 53[0m
+2023-11-17 22:39:25 info: ==================================
+2023-11-17 22:39:25 info: ======= ENV: "development" =======
+2023-11-17 22:39:25 info: 🦻 App listening on port - 3001 🦻
+2023-11-17 22:39:25 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-17 22:39:25 info: ==================================
+2023-11-17 22:39:25 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-17 22:39:25 info: ==================================
+2023-11-17 22:39:49 info: UserController - updateUserById - id: 2 🦁
+2023-11-17 22:39:49 info: UserService - updateUserById - id: 2 🦌
+2023-11-17 22:39:49 info: [0mPUT /api/v1/user/2 [32m200[0m 38.097 ms - 102[0m
+2023-11-17 22:40:05 info: UserController - updateUserById - id: 1 🦁
+2023-11-17 22:40:05 info: UserService - updateUserById - id: 1 🦌
+2023-11-17 22:40:05 info: [0mPUT /api/v1/user/1 [32m200[0m 20.370 ms - 102[0m
+2023-11-17 22:40:10 info: UserController - getUserById - id: 1 🦁
+2023-11-17 22:40:10 info: UserService - getUserById - id: 1 🦌
+2023-11-17 22:40:10 info: [0mGET /api/v1/user/1 [32m200[0m 8.135 ms - 211[0m

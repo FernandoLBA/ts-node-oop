@@ -61,7 +61,7 @@ class UserService extends BaseService<UserEntity> {
    * @param userBody
    * @returns
    */
-  public async updateUserById(id: string, userBody: any): Promise<UpdateResult | null> {
+  public async updateUserById(id: string, userBody: UserDTO): Promise<UpdateResult | null> {
     logger.info(`${UserService.name} - updateUserById - id: ${id} 🦌`);
     console.log("🚀 ~ file: user.service.ts:55 ~ UserService ~ updateUserById ~ userBody:", userBody);
     const findUser = await (await this.useRepository).findOneBy({ id });
