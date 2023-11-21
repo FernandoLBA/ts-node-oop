@@ -668,3 +668,935 @@ src/user/user.controller.ts(56,79): error TS1005: ',' expected.
     at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:1091:32)
     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:29:56 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:9:34)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 13:32:43 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:9:34)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 13:34:08 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:9:34)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 13:44:49 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:18:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:46:52 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:20:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:47:35 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:20:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:49:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.controller.ts(9,20): error TS2552: Cannot find name 'UserController'. Did you mean 'CustomerController'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.controller.ts(9,20): error TS2552: Cannot find name 'UserController'. Did you mean 'CustomerController'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.controller.ts(9,20): error TS2304: Cannot find name 'Cust'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.controller.ts(9,20): error TS2304: Cannot find name 'Cust'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.controller.ts(9,20): error TS2304: Cannot find name 'Custme'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.controller.ts(9,20): error TS2304: Cannot find name 'Custme'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:49:55 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:50:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(20,71): error TS2304: Cannot find name 'user'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(20,71): error TS2304: Cannot find name 'user'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:50:54 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:51:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(23,5): error TS2304: Cannot find name 'clg'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(23,5): error TS2304: Cannot find name 'clg'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 13:51:13 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:51:28 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:33)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:51:47 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:28)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 13:54:44 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:22)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 14:00:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(12,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.service.ts(12,20): error TS2552: Cannot find name 'UserService'. Did you mean 'BaseService'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(12,5): error TS2304: Cannot find name 'logger'.
+src/customer/customer.service.ts(12,20): error TS2552: Cannot find name 'UserService'. Did you mean 'BaseService'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:00:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(13,20): error TS2552: Cannot find name 'UserService'. Did you mean 'BaseService'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(13,20): error TS2552: Cannot find name 'UserService'. Did you mean 'BaseService'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:00:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(13,20): error TS2552: Cannot find name 'UserService'. Did you mean 'BaseService'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(13,20): error TS2552: Cannot find name 'UserService'. Did you mean 'BaseService'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:00:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(13,20): error TS2304: Cannot find name 'Cust'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(13,20): error TS2304: Cannot find name 'Cust'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:01:00 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:21:22)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+2023-11-20 14:01:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,34): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,34): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:02:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,50): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,50): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:02:19 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:11:34)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 14:02:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,5): error TS2304: Cannot find name 'cl'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,5): error TS2304: Cannot find name 'cl'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:02:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,17): error TS2304: Cannot find name 'whis'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,17): error TS2304: Cannot find name 'whis'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:02:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,17): error TS2304: Cannot find name 'whis'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,17): error TS2304: Cannot find name 'whis'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:02:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,17): error TS2552: Cannot find name 'object'. Did you mean 'Object'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(11,17): error TS2552: Cannot find name 'object'. Did you mean 'Object'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:02:53 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:11:22)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 14:33:52 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:11:22)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 14:34:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(8,10): error TS2339: Property 'c' does not exist on type 'CustomerController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(8,10): error TS2339: Property 'c' does not exist on type 'CustomerController'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:34:33 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:13:22)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-20 14:37:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(12,23): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(12,23): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:37:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,10): error TS7008: Member 'getAllCustomers' implicitly has an 'any' type.
+src/customer/customer.controller.ts(9,10): error TS1435: Unknown keyword or identifier. Did you mean 'get AllCustomers'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,10): error TS7008: Member 'getAllCustomers' implicitly has an 'any' type.
+src/customer/customer.controller.ts(9,10): error TS1435: Unknown keyword or identifier. Did you mean 'get AllCustomers'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:37:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,65): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(9,65): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:37:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(22,22): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(22,22): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:37:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(22,22): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(22,22): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:37:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(19,58): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(19,58): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:37:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(19,63): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(19,63): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(29,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(29,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,57): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,57): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,62): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,62): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(37,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(37,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(37,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(37,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(34,66): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(34,66): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(44,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(44,29): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:38:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(42,66): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(42,66): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:40:35 error: uncaughtException: Cannot save, given value must be an entity, instead "undefined" is given.
+MustBeEntityError: Cannot save, given value must be an entity, instead "undefined" is given.
+    at EntityPersistExecutor.execute (/Users/fernandolba/development/my-commerce/back/src/persistence/EntityPersistExecutor.ts:44:35)
+    at EntityManager.save (/Users/fernandolba/development/my-commerce/back/src/entity-manager/EntityManager.ts:439:14)
+    at Repository.save (/Users/fernandolba/development/my-commerce/back/src/repository/Repository.ts:205:29)
+    at CustomerService.createCustomer (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:27:39)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at createCustomer (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:29:29)
+2023-11-20 14:41:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,71): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,71): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:41:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,70): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.controller.ts(27,70): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:42:25 error: uncaughtException: Cannot save, given value must be an entity, instead "undefined" is given.
+MustBeEntityError: Cannot save, given value must be an entity, instead "undefined" is given.
+    at EntityPersistExecutor.execute (/Users/fernandolba/development/my-commerce/back/src/persistence/EntityPersistExecutor.ts:44:35)
+    at EntityManager.save (/Users/fernandolba/development/my-commerce/back/src/entity-manager/EntityManager.ts:439:14)
+    at Repository.save (/Users/fernandolba/development/my-commerce/back/src/repository/Repository.ts:205:29)
+    at CustomerService.createCustomer (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:27:39)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at createCustomer (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:30:29)
+2023-11-20 14:43:18 error: uncaughtException: Cannot save, given value must be an entity, instead "undefined" is given.
+MustBeEntityError: Cannot save, given value must be an entity, instead "undefined" is given.
+    at EntityPersistExecutor.execute (/Users/fernandolba/development/my-commerce/back/src/persistence/EntityPersistExecutor.ts:44:35)
+    at EntityManager.save (/Users/fernandolba/development/my-commerce/back/src/entity-manager/EntityManager.ts:439:14)
+    at Repository.save (/Users/fernandolba/development/my-commerce/back/src/repository/Repository.ts:205:29)
+    at CustomerService.createCustomer (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:27:39)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at createCustomer (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:30:29)
+2023-11-20 14:45:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(19,68): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(19,68): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:50:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(25,34): error TS2304: Cannot find name 'Customer'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(25,34): error TS2304: Cannot find name 'Customer'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:53:00 error: uncaughtException: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.getValueSet (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:766:15)
+    at UpdateQueryBuilder.createUpdateExpression (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:476:32)
+    at UpdateQueryBuilder.getQuery (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:53:21)
+    at UpdateQueryBuilder.getQueryAndParameters (/Users/fernandolba/development/my-commerce/back/src/query-builder/QueryBuilder.ts:507:28)
+    at UpdateQueryBuilder.execute (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:142:50)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at updateCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:37:29)
+2023-11-20 14:55:36 error: uncaughtException: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.getValueSet (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:766:15)
+    at UpdateQueryBuilder.createUpdateExpression (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:476:32)
+    at UpdateQueryBuilder.getQuery (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:53:21)
+    at UpdateQueryBuilder.getQueryAndParameters (/Users/fernandolba/development/my-commerce/back/src/query-builder/QueryBuilder.ts:507:28)
+    at UpdateQueryBuilder.execute (/Users/fernandolba/development/my-commerce/back/src/query-builder/UpdateQueryBuilder.ts:142:50)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at updateCustomerById (/Users/fernandolba/development/my-commerce/back/src/customer/customer.controller.ts:38:29)
+2023-11-20 14:59:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(27,68): error TS2304: Cannot find name 'id'.
+src/customer/customer.service.ts(28,68): error TS2304: Cannot find name 'id'.
+src/customer/customer.service.ts(29,68): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(27,68): error TS2304: Cannot find name 'id'.
+src/customer/customer.service.ts(28,68): error TS2304: Cannot find name 'id'.
+src/customer/customer.service.ts(29,68): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:59:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(27,68): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(27,68): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-20 14:59:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(27,68): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/customer.service.ts(27,68): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/customer/customer.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-5844557620413577.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)

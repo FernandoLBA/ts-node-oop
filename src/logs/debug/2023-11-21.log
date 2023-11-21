@@ -1,0 +1,22 @@
+2023-11-21 12:57:14 info: CustomerController - getAllCustomers 🦁
+2023-11-21 12:57:14 info: CustomerService - getAllCustomers 🦌
+2023-11-21 12:57:14 info: [0mGET /api/v1/customers [32m200[0m 55.191 ms - 128[0m
+2023-11-21 12:57:24 info: CustomerController - createCustomer 🦁
+2023-11-21 12:57:24 info: CustomerService - createCustomer 🦌
+2023-11-21 12:57:24 info: [0mPOST /api/v1/customer [32m200[0m 43.936 ms - 124[0m
+2023-11-21 12:57:35 info: CustomerController - getAllCustomers 🦁
+2023-11-21 12:57:35 info: CustomerService - getAllCustomers 🦌
+2023-11-21 12:57:35 info: [0mGET /api/v1/customers [32m200[0m 7.740 ms - 233[0m
+2023-11-21 12:57:48 info: CustomerController - updateCustomerById - id: 1 🦁
+2023-11-21 12:57:48 info: CustomerService - updateCustomerById - id: 1 🦌
+2023-11-21 12:57:48 info: [0mPUT /api/v1/customer/1 [32m200[0m 11.525 ms - 62[0m
+2023-11-21 12:57:50 info: CustomerController - getCustomerById - id: 1 🦁
+2023-11-21 12:57:50 info: CustomerService - getCustomerById - id: 1 🦌
+2023-11-21 12:57:50 info: [0mGET /api/v1/customer/1 [32m200[0m 12.170 ms - 113[0m
+2023-11-21 12:57:53 info: CustomerController - getAllCustomers 🦁
+2023-11-21 12:57:53 info: CustomerService - getAllCustomers 🦌
+2023-11-21 12:57:53 info: [0mGET /api/v1/customers [32m200[0m 7.729 ms - 221[0m
+2023-11-21 12:58:12 info: [0mDELETE /api/v1/customer/2 [32m200[0m 15.960 ms - 43[0m
+2023-11-21 12:58:15 info: CustomerController - getAllCustomers 🦁
+2023-11-21 12:58:15 info: CustomerService - getAllCustomers 🦌
+2023-11-21 12:58:15 info: [0mGET /api/v1/customers [32m200[0m 6.507 ms - 116[0m
