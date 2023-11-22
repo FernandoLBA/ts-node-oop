@@ -1,11 +1,16 @@
+import { DeleteResult, UpdateResult } from "typeorm";
 import { Request, Response } from "express";
 
+import { HttpResponse } from "../shared/response/http.response";
 import { logger } from "../utils/logger";
 import UserService from "./user.service";
 
 class UserController {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor(private readonly userService: UserService = new UserService()) {}
+  constructor(
+    private readonly userService: UserService = new UserService(),
+    private readonly httpResponse: HttpResponse = new HttpResponse(),
+  ) {}
 
   /**
    *
@@ -14,15 +19,17 @@ class UserController {
    * @returns
    */
   public getAllUsers = async (_req: Request, res: Response) => {
-    // * Identificamos cual controller y método se ejecuta
-    logger.info(`${UserController.name} - getAllUsers 🦁`);
-    const usersResponse = await this.userService.getAllUsers();
+    try {
+      // * Identificamos cual controller y método se ejecuta
+      logger.info(`${UserController.name} - getAllUsers 🦁`);
+      const usersResponse = await this.userService.getAllUsers();
 
-    return res.json({
-      ok: true,
-      users: usersResponse,
-      message: "List of users",
-    });
+      return this.httpResponse.OK(res, usersResponse);
+    } catch (error) {
+      logger.error(error);
+
+      return this.httpResponse.INTERNAL_SERVER_ERROR(res, null);
+    }
   };
 
   /**
@@ -32,15 +39,22 @@ class UserController {
    * @returns
    */
   public getUserById = async (req: Request, res: Response) => {
-    const { id: userId } = req.params;
-    logger.info(`${UserController.name} - getUserById - id: ${userId} 🦁`);
-    const user = await this.userService.getUserById(userId);
+    try {
+      const { id } = req.params;
+      logger.info(`${UserController.name} - getUserById - id: ${id} 🦁`);
+      const user = await this.userService.getUserById(id);
 
-    return res.json({
-      ok: true,
-      user,
-      message: `User's detail - ${userId}`,
-    });
+      if (!user) {
+        logger.warn(`User with id ${id} not found 🕵️`);
+        return this.httpResponse.NOT_FOUND(res, null);
+      }
+
+      return this.httpResponse.OK(res, user);
+    } catch (error) {
+      logger.error(error);
+
+      return this.httpResponse.ERROR(res, error);
+    }
   };
 
   /**
@@ -50,16 +64,17 @@ class UserController {
    * @returns
    */
   public createUser = async (req: Request, res: Response) => {
-    const { body: userBody } = req;
-    logger.info(`${UserController.name} - createUser 🦁`);
-    const { email } = userBody;
-    const newUser = await this.userService.createUser(userBody);
+    try {
+      const { body: userBody } = req;
+      logger.info(`${UserController.name} - createUser 🦁`);
+      const newUser = await this.userService.createUser(userBody);
 
-    return res.json({
-      ok: true,
-      user: newUser,
-      message: `User succesfully created with email: ${email}`,
-    });
+      return this.httpResponse.OK(res, newUser);
+    } catch (error) {
+      logger.error(error);
+
+      return this.httpResponse.ERROR(res, error);
+    }
   };
 
   /**
@@ -69,16 +84,22 @@ class UserController {
    * @returns
    */
   public updateUserById = async (req: Request, res: Response) => {
-    const { id: userId } = req.params;
-    const { body: userBody } = req;
-    logger.info(`${UserController.name} - updateUserById - id: ${userId} 🦁`);
-    const updatedUser = await this.userService.updateUserById(userId, userBody);
+    try {
+      const { id: userId } = req.params;
+      const { body: userBody } = req;
+      logger.info(`${UserController.name} - updateUserById - id: ${userId} 🦁`);
+      const updatedUser: UpdateResult = await this.userService.updateUserById(userId, userBody);
 
-    return res.json({
-      ok: true,
-      message: `User succesfully updated - ${userId}`,
-      user: updatedUser,
-    });
+      if (!updatedUser) {
+        return this.httpResponse.NOT_FOUND(res, null);
+      }
+
+      return this.httpResponse.OK(res, updatedUser);
+    } catch (error) {
+      logger.error(error);
+
+      return this.httpResponse.ERROR(res, error);
+    }
   };
 
   /**
@@ -88,15 +109,21 @@ class UserController {
    * @returns
    */
   public deleteUserById = async (req: Request, res: Response) => {
-    const { id: userId } = req.params;
-    logger.info(`${UserController.name} - deleteUserById - id: ${userId} 🦁`);
-    const deletedUser = await this.userService.deleteUserById(userId);
+    try {
+      const { id: userId } = req.params;
+      logger.info(`${UserController.name} - deleteUserById - id: ${userId} 🦁`);
+      const deletedUser: DeleteResult | null = await this.userService.deleteUserById(userId);
 
-    return res.json({
-      ok: true,
-      user: deletedUser,
-      message: `User succesfully deleted - ${userId}`,
-    });
+      if (deletedUser?.affected === 0) {
+        return this.httpResponse.NOT_FOUND(res, null);
+      }
+
+      return this.httpResponse.OK(res, deletedUser);
+    } catch (error) {
+      logger.error(error);
+
+      return this.httpResponse.ERROR(res, error);
+    }
   };
 }
 

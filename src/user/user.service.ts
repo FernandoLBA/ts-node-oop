@@ -1,4 +1,5 @@
 import { DeleteResult, UpdateResult } from "typeorm";
+
 import { BaseService } from "../config/base.service";
 import { logger } from "../utils/logger";
 import { UserEntity } from "./entities/user.entity";
@@ -48,7 +49,7 @@ class UserService extends BaseService<UserEntity> {
    * @param userBody
    * @returns
    */
-  public async createUser(userBody: UserDTO): Promise<UserEntity | null> {
+  public async createUser(userBody: UserDTO): Promise<UserEntity> {
     logger.info(`${UserService.name} - createUser 🦌`);
     console.log("🚀 ~ file: user.service.ts:39 ~ UserService ~ createUser ~ userBody:", userBody);
     const hashedPassword = await createHashValue(userBody.password);
@@ -63,7 +64,7 @@ class UserService extends BaseService<UserEntity> {
    * @param userBody
    * @returns
    */
-  public async updateUserById(id: string, userBody: UserDTO): Promise<UpdateResult | null> {
+  public async updateUserById(id: string, userBody: UserDTO): Promise<UpdateResult> {
     logger.info(`${UserService.name} - updateUserById - id: ${id} 🦌`);
     console.log("🚀 ~ file: user.service.ts:55 ~ UserService ~ updateUserById ~ userBody:", userBody);
     const findUser = await (await this.useRepository).findOneBy({ id });

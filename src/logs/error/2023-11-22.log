@@ -1,0 +1,646 @@
+2023-11-22 12:47:19 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 12:47:37 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 12:48:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/constants/type-orm-errors.ts(3,3): error TS1117: An object literal cannot have multiple properties with the same name.
+
+Error: ⨯ Unable to compile TypeScript:
+src/constants/type-orm-errors.ts(3,3): error TS1117: An object literal cannot have multiple properties with the same name.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/constants/type-orm-errors.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:14:57 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:20:01 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:21:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:22:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(42,38): error TS1011: An element access expression should take an argument.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(42,38): error TS1011: An element access expression should take an argument.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:22:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(76,50): error TS2339: Property 'E' does not exist on type 'HttpResponse'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(76,50): error TS2339: Property 'E' does not exist on type 'HttpResponse'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:22:48 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:23:35 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:24:17 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:24:26 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:24:31 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:25:25 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:25:31 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:26:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(40,45): error TS6133: 'res' is declared but its value is never read.
+src/user/user.controller.ts(47,21): error TS2552: Cannot find name 'User'. Did you mean 'user'?
+src/user/user.controller.ts(47,26): error TS1101: 'with' statements are not allowed in strict mode.
+src/user/user.controller.ts(47,40): error TS2304: Cannot find name 'not'.
+src/user/user.controller.ts(47,44): error TS2304: Cannot find name 'found'.
+src/user/user.controller.ts(68,20): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(68,45): error TS2304: Cannot find name 'createUser'.
+src/user/user.controller.ts(92,20): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(92,45): error TS2304: Cannot find name 'updateUserById'.
+src/user/user.controller.ts(92,62): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/user/user.controller.ts(92,66): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(92,68): error TS2552: Cannot find name 'userId'. Did you mean 'user'?
+src/user/user.controller.ts(115,18): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(115,43): error TS2304: Cannot find name 'deleteUserById'.
+src/user/user.controller.ts(115,60): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/user/user.controller.ts(115,64): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(115,66): error TS2304: Cannot find name 'userId'.
+src/user/user.controller.ts(121,17): error TS2304: Cannot find name 'User'.
+src/user/user.controller.ts(121,22): error TS2304: Cannot find name 'succesfully'.
+src/user/user.controller.ts(121,34): error TS2304: Cannot find name 'deleted'.
+src/user/user.controller.ts(121,44): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(121,46): error TS2304: Cannot find name 'userId'.
+src/user/user.controller.ts(47,26): error TS1005: ',' expected.
+src/user/user.controller.ts(47,31): error TS1005: '(' expected.
+src/user/user.controller.ts(47,34): error TS1005: ')' expected.
+src/user/user.controller.ts(47,40): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(47,50): error TS1127: Invalid character.
+src/user/user.controller.ts(47,52): error TS1127: Invalid character.
+src/user/user.controller.ts(68,20): error TS1005: ';' expected.
+src/user/user.controller.ts(68,56): error TS1127: Invalid character.
+src/user/user.controller.ts(92,20): error TS1005: ';' expected.
+src/user/user.controller.ts(92,64): error TS1005: ';' expected.
+src/user/user.controller.ts(92,66): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(92,76): error TS1127: Invalid character.
+src/user/user.controller.ts(115,18): error TS1005: ';' expected.
+src/user/user.controller.ts(115,62): error TS1005: ';' expected.
+src/user/user.controller.ts(115,64): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(115,74): error TS1127: Invalid character.
+src/user/user.controller.ts(121,17): error TS1005: ';' expected.
+src/user/user.controller.ts(121,22): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(121,45): error TS1005: ';' expected.
+src/user/user.controller.ts(127,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(40,45): error TS6133: 'res' is declared but its value is never read.
+src/user/user.controller.ts(47,21): error TS2552: Cannot find name 'User'. Did you mean 'user'?
+src/user/user.controller.ts(47,26): error TS1101: 'with' statements are not allowed in strict mode.
+src/user/user.controller.ts(47,40): error TS2304: Cannot find name 'not'.
+src/user/user.controller.ts(47,44): error TS2304: Cannot find name 'found'.
+src/user/user.controller.ts(68,20): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(68,45): error TS2304: Cannot find name 'createUser'.
+src/user/user.controller.ts(92,20): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(92,45): error TS2304: Cannot find name 'updateUserById'.
+src/user/user.controller.ts(92,62): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/user/user.controller.ts(92,66): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(92,68): error TS2552: Cannot find name 'userId'. Did you mean 'user'?
+src/user/user.controller.ts(115,18): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(115,43): error TS2304: Cannot find name 'deleteUserById'.
+src/user/user.controller.ts(115,60): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/user/user.controller.ts(115,64): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(115,66): error TS2304: Cannot find name 'userId'.
+src/user/user.controller.ts(121,17): error TS2304: Cannot find name 'User'.
+src/user/user.controller.ts(121,22): error TS2304: Cannot find name 'succesfully'.
+src/user/user.controller.ts(121,34): error TS2304: Cannot find name 'deleted'.
+src/user/user.controller.ts(121,44): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/user/user.controller.ts(121,46): error TS2304: Cannot find name 'userId'.
+src/user/user.controller.ts(47,26): error TS1005: ',' expected.
+src/user/user.controller.ts(47,31): error TS1005: '(' expected.
+src/user/user.controller.ts(47,34): error TS1005: ')' expected.
+src/user/user.controller.ts(47,40): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(47,50): error TS1127: Invalid character.
+src/user/user.controller.ts(47,52): error TS1127: Invalid character.
+src/user/user.controller.ts(68,20): error TS1005: ';' expected.
+src/user/user.controller.ts(68,56): error TS1127: Invalid character.
+src/user/user.controller.ts(92,20): error TS1005: ';' expected.
+src/user/user.controller.ts(92,64): error TS1005: ';' expected.
+src/user/user.controller.ts(92,66): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(92,76): error TS1127: Invalid character.
+src/user/user.controller.ts(115,18): error TS1005: ';' expected.
+src/user/user.controller.ts(115,62): error TS1005: ';' expected.
+src/user/user.controller.ts(115,64): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(115,74): error TS1127: Invalid character.
+src/user/user.controller.ts(121,17): error TS1005: ';' expected.
+src/user/user.controller.ts(121,22): error TS1434: Unexpected keyword or identifier.
+src/user/user.controller.ts(121,45): error TS1005: ';' expected.
+src/user/user.controller.ts(127,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-9484086577660493.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:28:32 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:29:03 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:29:11 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:29:14 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:30:30 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:31:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:31:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:31:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+src/shared/response/http.response.ts(43,12): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+src/shared/response/http.response.ts(43,12): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:31:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(3,1): error TS6133: 'typeOrmErrors' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:32:02 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:32:14 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:32:45 error: ER_BAD_NULL_ERROR: Column 'email' cannot be null
+2023-11-22 13:32:57 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:33:20 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:34:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(42,43): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(42,43): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:35:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(42,85): error TS2304: Cannot find name 'Unknown'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(42,85): error TS2304: Cannot find name 'Unknown'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:36:15 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:36:37 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:37:10 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:38:13 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:38:35 error: ER_DUP_ENTRY: Duplicate entry 'mñ@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:40:57 error: ER_DUP_ENTRY: Duplicate entry 'flba@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:41:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(100,43): error TS2552: Cannot find name 'ERROR'. Did you mean 'error'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(100,43): error TS2552: Cannot find name 'ERROR'. Did you mean 'error'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:41:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:41:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+src/user/user.controller.ts(122,14): error TS2555: Expected at least 1 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+src/user/user.controller.ts(122,14): error TS2555: Expected at least 1 arguments, but got 0.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(110,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(125,5): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(125,5): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+src/user/user.controller.ts(116,19): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+src/user/user.controller.ts(116,19): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+src/user/user.controller.ts(116,32): error TS2554: Expected 2 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+src/user/user.controller.ts(116,32): error TS2554: Expected 2 arguments, but got 1.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+src/user/user.controller.ts(116,46): error TS1102: 'delete' cannot be called on an identifier in strict mode.
+src/user/user.controller.ts(116,46): error TS2703: The operand of a 'delete' operator must be a property reference.
+src/user/user.controller.ts(116,46): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(114,13): error TS6133: 'deletedUser' is declared but its value is never read.
+src/user/user.controller.ts(116,46): error TS1102: 'delete' cannot be called on an identifier in strict mode.
+src/user/user.controller.ts(116,46): error TS2703: The operand of a 'delete' operator must be a property reference.
+src/user/user.controller.ts(116,46): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:42:47 error: ER_DUP_ENTRY: Duplicate entry 'flba@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-22 13:50:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(116,10): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(116,10): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:51:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(116,12): error TS18047: 'deletedUser' is possibly 'null'.
+src/user/user.controller.ts(116,24): error TS2339: Property 'data' does not exist on type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(116,12): error TS18047: 'deletedUser' is possibly 'null'.
+src/user/user.controller.ts(116,24): error TS2339: Property 'data' does not exist on type 'DeleteResult'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:52:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(116,12): error TS18047: 'deletedUser' is possibly 'null'.
+src/user/user.controller.ts(116,24): error TS2339: Property 'data' does not exist on type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(116,12): error TS18047: 'deletedUser' is possibly 'null'.
+src/user/user.controller.ts(116,24): error TS2339: Property 'data' does not exist on type 'DeleteResult'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 13:52:11 error: Cannot read properties of undefined (reading 'affected')
+2023-11-22 13:52:42 error: Cannot read properties of undefined (reading 'affected')
+2023-11-22 13:52:53 error: Cannot read properties of undefined (reading 'affected')
+2023-11-22 13:53:05 error: Cannot read properties of undefined (reading 'affected')
+2023-11-22 14:00:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(90,26): error TS2304: Cannot find name 'UpdatedRed'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(90,26): error TS2304: Cannot find name 'UpdatedRed'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:00:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(115,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(115,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:00:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(117,11): error TS18047: 'deletedUser' is possibly 'null'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(117,11): error TS18047: 'deletedUser' is possibly 'null'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:03:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS1196: Catch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS1196: Catch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:03:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS1196: Catch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS1196: Catch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:03:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS2304: Cannot find name 'ErrorDescription'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS2304: Cannot find name 'ErrorDescription'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:03:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS1196: Catch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(122,21): error TS1196: Catch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-22 14:07:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(6,21): error TS7006: Parameter 'data' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(6,21): error TS7006: Parameter 'data' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-09818644305590718.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
