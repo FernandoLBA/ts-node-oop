@@ -791,3 +791,203 @@ QueryFailedError: ER_DUP_FIELDNAME: Duplicate column name 'role'
     at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
     at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
     at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+2023-11-23 21:34:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(79,5): error TS1005: '(' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(79,5): error TS1005: '(' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:34:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(77,8): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(77,8): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:34:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:34:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(67,63): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,19): error TS2353: Object literal may only specify known properties, and 'user' does not exist in type 'UserDTO'.
+src/user/user.service.ts(78,19): error TS18004: No value exists in scope for the shorthand property 'user'. Either declare one or provide an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,19): error TS2353: Object literal may only specify known properties, and 'user' does not exist in type 'UserDTO'.
+src/user/user.service.ts(78,19): error TS18004: No value exists in scope for the shorthand property 'user'. Either declare one or provide an initializer.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,19): error TS2353: Object literal may only specify known properties, and 'userBody' does not exist in type 'UserDTO'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,19): error TS2353: Object literal may only specify known properties, and 'userBody' does not exist in type 'UserDTO'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,42): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,42): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,42): error TS2304: Cannot find name 'hash'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,42): error TS2304: Cannot find name 'hash'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,42): error TS2304: Cannot find name 'hashV'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,42): error TS2304: Cannot find name 'hashV'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,32): error TS2322: Type 'Promise<string>' is not assignable to type 'string'.
+src/user/user.service.ts(78,42): error TS2554: Expected 1 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,32): error TS2322: Type 'Promise<string>' is not assignable to type 'string'.
+src/user/user.service.ts(78,42): error TS2554: Expected 1 arguments, but got 0.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,32): error TS2322: Type 'Promise<string>' is not assignable to type 'string'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,32): error TS2322: Type 'Promise<string>' is not assignable to type 'string'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-23 21:35:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,33): error TS2322: Type 'Promise<string>' is not assignable to type 'string'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(78,33): error TS2322: Type 'Promise<string>' is not assignable to type 'string'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-32593975892187066.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)

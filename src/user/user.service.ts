@@ -74,6 +74,10 @@ class UserService extends BaseService<UserEntity> {
       console.log("El usuario no existe");
     }
 
+    if (userBody.password) {
+      userBody = { ...userBody, password: await createHashValue(userBody.password) };
+    }
+
     return await (await this.useRepository).update(id, { ...userBody });
   }
 
