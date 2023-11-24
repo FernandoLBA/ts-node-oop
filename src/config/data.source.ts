@@ -8,7 +8,7 @@ config({
   path: `.env.${process.env.NODE_ENV || "development"}.local`,
 });
 
-const { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } = process.env;
+export const { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } = process.env;
 
 // * Archivo de configuración de typeORM
 const configDBConnection: DataSourceOptions = {
@@ -22,7 +22,7 @@ const configDBConnection: DataSourceOptions = {
   migrationsRun: false,
   logging: false,
   entities: [join(__dirname, "../**/*.entity{.ts,.js}")],
-  migrations: [join(__dirname, "../**/*.migration{.ts,.js}")],
+  migrations: [join(__dirname, "../migrations/*{.ts,.js}")],
   subscribers: [join(__dirname, "../**/*.subscriber{.ts,.js}")],
   // * Esto tiene una instancia de typeorm-naming-sttategies, la cual convierte los nombres de camelCase a snake_case
   namingStrategy: new SnakeNamingStrategy(),

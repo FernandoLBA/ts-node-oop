@@ -1,6 +1,7 @@
 import { Column, CreateDateColumn, Entity, OneToOne, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from "typeorm";
 
 import { CustomerEntity } from "../../customer/entities/customer.entity";
+import { RoleType } from "../types/user.type";
 
 @Entity({ name: "user" })
 export class UserEntity {
@@ -23,6 +24,10 @@ export class UserEntity {
 
   @Column()
   gender!: string;
+
+  // * Creamos un enum de tipo RoleType no nullable
+  @Column({ type: "enum", enum: RoleType, nullable: false })
+  role!: RoleType;
 
   // * Opción con configuración y sin usar @Column
   /* @CreateDateColumn({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)" }) */

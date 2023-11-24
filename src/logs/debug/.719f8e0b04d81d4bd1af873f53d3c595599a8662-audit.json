@@ -59,6 +59,11 @@
             "date": 1700675239650,
             "name": "/Users/fernandolba/development/my-commerce/back/src/logs/debug/2023-11-22.log",
             "hash": "944b30349f63442161f7a5ae4f3e506f16f22f8335ab45a6a53c0db29d570451"
+        },
+        {
+            "date": 1700771898334,
+            "name": "/Users/fernandolba/development/my-commerce/back/src/logs/debug/2023-11-23.log",
+            "hash": "35e414dbab333ea95ffe9537df356076305975dabc391fc323dd7f768940e4e0"
         }
     ],
     "hashType": "sha256"
