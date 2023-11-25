@@ -23,14 +23,14 @@ class CustomerService extends BaseService<CustomerEntity> {
     return (await this.useRepository).findOneBy({ id });
   }
 
-  async createCustomer(customer: CustomerDTO): Promise<CustomerEntity | null> {
+  async createCustomer(customer: CustomerDTO): Promise<CustomerEntity> {
     logger.info(`${CustomerService.name} - createCustomer 🦌`);
     console.log("🚀 ~ file: customer.service.ts:22 ~ CustomerService ~ createCustomer ~ customer:", customer);
 
     return (await this.useRepository).save(customer);
   }
 
-  async updateCustomerById(id: string, customerUpdated: CustomerDTO): Promise<UpdateResult | null> {
+  async updateCustomerById(id: string, customerUpdated: CustomerDTO): Promise<UpdateResult> {
     logger.info(`${CustomerService.name} - updateCustomerById - id: ${id} 🦌`);
     console.log(
       "🚀 ~ file: customer.service.ts:28 ~ CustomerService ~ updateCustomerById ~ customerUpdated:",
@@ -40,7 +40,7 @@ class CustomerService extends BaseService<CustomerEntity> {
     return (await this.useRepository).update(id, customerUpdated);
   }
 
-  async deleteCustomerById(id: string): Promise<DeleteResult | null> {
+  async deleteCustomerById(id: string): Promise<DeleteResult> {
     console.log("🚀 ~ file: customer.service.ts:34 ~ CustomerService ~ deleteCustomerById ~ id:", id);
 
     return (await this.useRepository).delete({ id });

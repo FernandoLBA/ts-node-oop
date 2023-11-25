@@ -1,14 +1,17 @@
-import { Router } from "express";
+import { NextFunction, Request, Response, Router } from "express";
 
 import CustomerController from "../customer/customer.controller";
-import { Routes } from "../interfaces/route.interface";
+import { ValidateMiddlewareDTO } from "../middlewares/validate-dto.middleware";
+import { BaseRouter } from "../shared/router/base.router";
+import { CustomerDTO } from "../customer/dto/customer.dto";
 
-class CustomerRoutes implements Routes {
+class CustomerRoutes extends BaseRouter<CustomerController, ValidateMiddlewareDTO> {
   public path = "/customer";
   public router = Router();
   public customerController = new CustomerController();
 
   constructor() {
+    super(CustomerController, ValidateMiddlewareDTO);
     this.initCustomerRoutes();
   }
 
@@ -17,7 +20,11 @@ class CustomerRoutes implements Routes {
 
     this.router.get(`${this.path}/:id`, this.customerController.getCustomerById);
 
-    this.router.post(`${this.path}`, this.customerController.createCustomer);
+    this.router.post(
+      `${this.path}`,
+      (req: Request, res: Response, next: NextFunction) => this.middleware.validator(req, res, next, CustomerDTO),
+      this.customerController.createCustomer,
+    );
 
     this.router.put(`${this.path}/:id`, this.customerController.updateCustomerById);
 

@@ -1,5 +1,5 @@
-import { DeleteResult, UpdateResult } from "typeorm";
 import { Request, Response } from "express";
+import { DeleteResult, UpdateResult } from "typeorm";
 
 import { HttpResponse } from "../shared/response/http.response";
 import { logger } from "../utils/logger";

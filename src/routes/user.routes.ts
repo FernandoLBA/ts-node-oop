@@ -1,14 +1,17 @@
-import { Router } from "express";
+import { NextFunction, Request, Response, Router } from "express";
 
-import { Routes } from "../interfaces/route.interface";
+import { BaseRouter } from "../shared/router/base.router";
 import UserController from "../user/user.controller";
+import { ValidateMiddlewareDTO } from "../middlewares/validate-dto.middleware";
+import { UserDTO } from "../user/dto/user.dto";
 
-class UserRoutes implements Routes {
+class UserRoutes extends BaseRouter<UserController, ValidateMiddlewareDTO> {
   public path = "/user";
   public router = Router();
   public userController = new UserController();
 
   constructor() {
+    super(UserController, ValidateMiddlewareDTO);
     this.initUserRoute();
   }
 
@@ -23,7 +26,12 @@ class UserRoutes implements Routes {
     this.router.get(`${this.path}/:id`, this.userController.getUserById);
 
     // * Create user
-    this.router.post(`${this.path}`, this.userController.createUser);
+    this.router.post(
+      `${this.path}`,
+      // * Aquí se colocará un array de middlewares, que se ejecutan a través de esta función
+      (req: Request, res: Response, next: NextFunction) => [this.middleware.validator(req, res, next, UserDTO)],
+      this.userController.createUser,
+    );
 
     // * Update user by Id
     this.router.put(`${this.path}/:id`, this.userController.updateUserById);

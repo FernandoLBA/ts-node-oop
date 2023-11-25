@@ -1,10 +1,10 @@
 import { DeleteResult, UpdateResult } from "typeorm";
 
 import { BaseService } from "../config/base.service";
-import { logger } from "../utils/logger";
-import { UserEntity } from "./entities/user.entity";
-import { UserDTO } from "./dto/user.dto";
 import { createHashValue } from "../utils/hash";
+import { logger } from "../utils/logger";
+import { UserDTO } from "./dto/user.dto";
+import { UserEntity } from "./entities/user.entity";
 
 class UserService extends BaseService<UserEntity> {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -53,7 +53,7 @@ class UserService extends BaseService<UserEntity> {
     logger.info(`${UserService.name} - createUser 🦌`);
     console.log("🚀 ~ file: user.service.ts:39 ~ UserService ~ createUser ~ userBody:", userBody);
     const hashedPassword = await createHashValue(userBody.password);
-    const newUser = await (await this.useRepository).create({ ...userBody, password: hashedPassword });
+    const newUser = (await this.useRepository).create({ ...userBody, password: hashedPassword });
 
     return (await this.useRepository).save(newUser);
   }

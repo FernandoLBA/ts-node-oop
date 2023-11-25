@@ -36,5 +36,5 @@ export class CustomerEntity {
 
   // * Relación 1:N con testimonial, relaciona a testimonial con customer
   @OneToMany(() => TestimonialEntity, (testimonial) => testimonial.customer)
-  testimonials!: TestimonialEntity;
+  testimonials!: TestimonialEntity[];
 }
