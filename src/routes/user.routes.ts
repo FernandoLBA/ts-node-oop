@@ -25,8 +25,8 @@ class UserRoutes extends BaseRouter<UserController, ValidateMiddlewareDTO> {
     // * Get user by Id
     this.router.get(`${this.path}/:id`, this.userController.getUserById);
 
-    // * Get user by Id with Relation
-    this.router.get(`${this.path}/rel/:uid`, this.userController.getUserByIdWithRelation);
+    // * Get user by Id with Customer Relation
+    this.router.get(`${this.path}/rel/:id`, this.userController.getUserByIdWithCustomerRelation);
 
     // * Create user
     this.router.post(

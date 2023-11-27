@@ -63,14 +63,14 @@ class UserController {
    * @param res
    * @returns
    */
-  public getUserByIdWithRelation = async (req: Request, res: Response) => {
+  public getUserByIdWithCustomerRelation = async (req: Request, res: Response) => {
     try {
-      const { uid } = req.params;
-      logger.info(`${UserController.name} - getUserByIdWithRelation - uid: ${uid} 🦁`);
-      const user = await this.userService.getUserByIdWithRelation(uid);
+      const { id } = req.params;
+      logger.info(`${UserController.name} - getUserByIdWithCustomerRelation - uid: ${id} 🦁`);
+      const user = await this.userService.getUserByIdWithCustomerRelation(id);
 
       if (!user) {
-        logger.warn(`User with id ${uid} not found 🕵️`);
+        logger.warn(`User with id ${id} not found 🕵️`);
         return this.httpResponse.NOT_FOUND(res, null);
       }
 

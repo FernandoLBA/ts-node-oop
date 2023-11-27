@@ -54,18 +54,17 @@ class UserService extends BaseService<UserEntity> {
   }
 
   /**
-   * getUserByIdWithRelation
-   * @param uid
+   * getUserByIdWithCustomerRelation
+   * @param id
    * @returns
    */
-  public async getUserByIdWithRelation(uid: string): Promise<UserEntity | null | undefined> {
+  public async getUserByIdWithCustomerRelation(id: string): Promise<UserEntity | null | undefined> {
     try {
-      console.log("soy yo");
-      logger.info(`${UserService.name} - getUserByIdWithRelation - uid: ${uid} 🦌`);
+      logger.info(`${UserService.name} - getUserByIdWithCustomerRelation - uid: ${id} 🦌`);
       const user = await (await this.useRepository)
         .createQueryBuilder("user")
         .leftJoinAndSelect("user.customer", "customer")
-        .where({ id: uid })
+        .where({ id })
         .getOne();
 
       return user;
