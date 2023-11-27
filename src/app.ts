@@ -12,6 +12,7 @@ import { API_VERSION, ConfigServer, LOG_FORMAT, NODE_ENV, PORT } from "./config/
 import corsConfig from "./config/cors.config";
 import { Routes } from "./interfaces/route.interface";
 import { logger, stream } from "./utils/logger";
+import { LoginStrategy } from "./auth/strategies/login.strategy";
 
 class App extends ConfigServer {
   public app: Application;
@@ -31,6 +32,7 @@ class App extends ConfigServer {
     this.connectToDatabase();
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
+    this.passportUse();
     this.initializeSwagger();
     this.initializeErrorHandling();
   }
@@ -51,6 +53,10 @@ class App extends ConfigServer {
     this.server = this.app.listen(this.port, () => {
       done();
     });
+  }
+
+  public passportUse() {
+    return [new LoginStrategy().use];
   }
 
   /**

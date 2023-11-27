@@ -48,3 +48,151 @@ src/routes/user.routes.ts(29,65): error TS2551: Property 'getUserByIdWithCustome
     at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:1091:32)
     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:42:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(61,16): error TS2393: Duplicate function implementation.
+src/user/services/user.service.ts(81,16): error TS2393: Duplicate function implementation.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(61,16): error TS2393: Duplicate function implementation.
+src/user/services/user.service.ts(81,16): error TS2393: Duplicate function implementation.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:43:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(81,45): error TS6133: 'role' is declared but its value is never read.
+src/user/services/user.service.ts(81,51): error TS2304: Cannot find name 'rolet'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(81,45): error TS6133: 'role' is declared but its value is never read.
+src/user/services/user.service.ts(81,51): error TS2304: Cannot find name 'rolet'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:43:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:43:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:43:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:44:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:44:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:44:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(82,45): error TS6133: 'role' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 00:45:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(85,94): error TS2554: Expected 1-2 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(85,94): error TS2554: Expected 1-2 arguments, but got 0.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-2750270662074583.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)

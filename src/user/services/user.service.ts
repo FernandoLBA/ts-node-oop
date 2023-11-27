@@ -7,6 +7,7 @@ import { UserDTO } from "../dto/user.dto";
 import { UserEntity } from "../entities/user.entity";
 import { HttpException } from "../../exception/httpException";
 import { ReasonPhrases } from "http-status-codes";
+import { RoleType } from "../types/user.type";
 
 class UserService extends BaseService<UserEntity> {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -65,6 +66,27 @@ class UserService extends BaseService<UserEntity> {
         .createQueryBuilder("user")
         .leftJoinAndSelect("user.customer", "customer")
         .where({ id })
+        .getOne();
+
+      return user;
+    } catch (error) {
+      logger.error(error);
+    }
+  }
+
+  /**
+   * findUserWithRole
+   * @param id
+   * @param role
+   * @returns
+   */
+  public async findUserWithRole(id: string, role: RoleType): Promise<UserEntity | null | undefined> {
+    try {
+      logger.info(`${UserService.name} - findUserWithRole - id: ${id} - role: ${role} 🦌`);
+      const user = await (await this.useRepository)
+        .createQueryBuilder("user")
+        .where({ id })
+        .andWhere({ role })
         .getOne();
 
       return user;
