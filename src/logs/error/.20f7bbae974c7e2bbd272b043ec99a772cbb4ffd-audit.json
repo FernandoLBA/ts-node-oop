@@ -74,6 +74,16 @@
             "date": 1700889469708,
             "name": "/Users/fernandolba/development/my-commerce/back/src/logs/error/2023-11-25.log",
             "hash": "93a9da018fd60ee9be7db21a189d336b8fdba8219e4ea8163787675283c01e92"
+        },
+        {
+            "date": 1701058341409,
+            "name": "/Users/fernandolba/development/my-commerce/back/src/logs/error/2023-11-26.log",
+            "hash": "6026539d28e2af18531924f68c0f84454f3e14cd4994f1f558e2f85485d67a4d"
+        },
+        {
+            "date": 1701061401599,
+            "name": "/Users/fernandolba/development/my-commerce/back/src/logs/error/2023-11-27.log",
+            "hash": "feda2c7fd778e824948d953c52ab6e681760652a8fe1e6c1d742255b68526d18"
         }
     ],
     "hashType": "sha256"

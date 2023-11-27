@@ -1,0 +1,181 @@
+2023-11-27 00:00:42 info: UserController - getUserByIdWithRelation - uid: 2 🦁
+2023-11-27 00:00:42 info: UserService - getUserById - id: 2 🦌
+2023-11-27 00:00:42 info: [0mGET /api/v1/user/rel/2 [32m200[0m 12.081 ms - 212[0m
+2023-11-27 00:03:21 info: UserController - getUserByIdWithRelation - uid: 243 🦁
+2023-11-27 00:03:21 info: UserService - getUserById - id: 243 🦌
+2023-11-27 00:03:21 error: Not Found
+2023-11-27 00:03:21 warn: User with id 243 not found 🕵️
+2023-11-27 00:03:21 info: [0mGET /api/v1/user/rel/243 [33m404[0m 11.684 ms - 58[0m
+2023-11-27 00:04:08 info: ==================================
+2023-11-27 00:04:08 info: ======= ENV: "development" =======
+2023-11-27 00:04:08 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:04:08 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:04:08 info: ==================================
+2023-11-27 00:04:08 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:04:08 info: ==================================
+2023-11-27 00:04:11 info: UserController - getUserByIdWithRelation - uid: 243 🦁
+2023-11-27 00:04:11 info: UserService - getUserById - id: 243 🦌
+2023-11-27 00:04:11 error: Not Found
+2023-11-27 00:04:11 warn: User with id 243 not found 🕵️
+2023-11-27 00:04:11 info: [0mGET /api/v1/user/rel/243 [33m404[0m 19.202 ms - 58[0m
+2023-11-27 00:04:21 info: UserController - getUserByIdWithRelation - uid: 2 🦁
+2023-11-27 00:04:21 info: UserService - getUserById - id: 2 🦌
+2023-11-27 00:04:21 info: [0mGET /api/v1/user/rel/2 [32m200[0m 9.199 ms - 212[0m
+2023-11-27 00:04:38 info: ==================================
+2023-11-27 00:04:38 info: ======= ENV: "development" =======
+2023-11-27 00:04:38 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:04:38 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:04:38 info: ==================================
+2023-11-27 00:04:38 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:04:38 info: ==================================
+2023-11-27 00:04:56 info: UserController - getUserByIdWithRelation - uid: 2 🦁
+2023-11-27 00:04:56 info: UserService - getUserById - id: 2 🦌
+2023-11-27 00:04:56 info: [0mGET /api/v1/user/rel/2 [32m200[0m 20.681 ms - 212[0m
+2023-11-27 00:05:35 info: ==================================
+2023-11-27 00:05:35 info: ======= ENV: "development" =======
+2023-11-27 00:05:35 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:05:35 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:05:35 info: ==================================
+2023-11-27 00:05:35 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:05:35 info: ==================================
+2023-11-27 00:06:02 info: ==================================
+2023-11-27 00:06:02 info: ======= ENV: "development" =======
+2023-11-27 00:06:02 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:06:02 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:06:02 info: ==================================
+2023-11-27 00:06:02 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:06:02 info: ==================================
+2023-11-27 00:06:06 info: ==================================
+2023-11-27 00:06:06 info: ======= ENV: "development" =======
+2023-11-27 00:06:06 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:06:06 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:06:06 info: ==================================
+2023-11-27 00:06:06 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:06:06 info: ==================================
+2023-11-27 00:07:31 info: UserController - createUser 🦁
+2023-11-27 00:07:31 info: UserService - createUser 🦌
+2023-11-27 00:07:31 info: [0mPOST /api/v1/user [32m200[0m 137.713 ms - 292[0m
+2023-11-27 00:09:02 info: CustomerController - createCustomer 🦁
+2023-11-27 00:09:02 info: CustomerService - createCustomer 🦌
+2023-11-27 00:09:02 info: [0mPOST /api/v1/customer [32m200[0m 25.275 ms - 166[0m
+2023-11-27 00:09:17 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:09:17 info: UserService - getUserById - id: 22 🦌
+2023-11-27 00:09:17 info: [0mGET /api/v1/user/rel/22 [32m200[0m 12.247 ms - 218[0m
+2023-11-27 00:09:46 info: ==================================
+2023-11-27 00:09:46 info: ======= ENV: "development" =======
+2023-11-27 00:09:46 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:09:46 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:09:46 info: ==================================
+2023-11-27 00:09:46 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:09:46 info: ==================================
+2023-11-27 00:09:48 info: ==================================
+2023-11-27 00:09:48 info: ======= ENV: "development" =======
+2023-11-27 00:09:48 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:09:48 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:09:48 info: ==================================
+2023-11-27 00:09:48 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:09:48 info: ==================================
+2023-11-27 00:09:50 info: ==================================
+2023-11-27 00:09:50 info: ======= ENV: "development" =======
+2023-11-27 00:09:50 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:09:50 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:09:50 info: ==================================
+2023-11-27 00:09:50 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:09:50 info: ==================================
+2023-11-27 00:10:02 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:10:02 info: UserService - getUserById - id: 22 🦌
+2023-11-27 00:10:02 info: [0mGET /api/v1/users/rel/22 [32m200[0m 20.791 ms - 218[0m
+2023-11-27 00:11:55 info: ==================================
+2023-11-27 00:11:55 info: ======= ENV: "development" =======
+2023-11-27 00:11:55 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:11:55 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:11:55 info: ==================================
+2023-11-27 00:11:55 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:11:55 info: ==================================
+2023-11-27 00:12:13 info: ==================================
+2023-11-27 00:12:13 info: ======= ENV: "development" =======
+2023-11-27 00:12:13 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:12:13 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:12:13 info: ==================================
+2023-11-27 00:12:13 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:12:13 info: ==================================
+2023-11-27 00:12:14 info: ==================================
+2023-11-27 00:12:14 info: ======= ENV: "development" =======
+2023-11-27 00:12:14 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:12:14 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:12:14 info: ==================================
+2023-11-27 00:12:14 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:12:14 info: ==================================
+2023-11-27 00:12:16 info: ==================================
+2023-11-27 00:12:16 info: ======= ENV: "development" =======
+2023-11-27 00:12:16 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:12:16 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:12:16 info: ==================================
+2023-11-27 00:12:17 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:12:17 info: ==================================
+2023-11-27 00:12:19 info: ==================================
+2023-11-27 00:12:19 info: ======= ENV: "development" =======
+2023-11-27 00:12:19 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:12:19 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:12:19 info: ==================================
+2023-11-27 00:12:19 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:12:19 info: ==================================
+2023-11-27 00:12:37 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:12:37 info: UserService - getUserById - id: 22 🦌
+2023-11-27 00:12:37 info: [0mGET /api/v1/user/rel/22 [32m200[0m 18.266 ms - 218[0m
+2023-11-27 00:13:37 info: ==================================
+2023-11-27 00:13:37 info: ======= ENV: "development" =======
+2023-11-27 00:13:37 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:13:37 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:13:37 info: ==================================
+2023-11-27 00:13:38 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:13:38 info: ==================================
+2023-11-27 00:13:53 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:13:53 info: UserService - getUserById - id: 22 🦌
+2023-11-27 00:13:53 info: [0mGET /api/v1/user/rel/22 [32m200[0m 34.202 ms - 218[0m
+2023-11-27 00:14:17 info: ==================================
+2023-11-27 00:14:17 info: ======= ENV: "development" =======
+2023-11-27 00:14:17 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:14:17 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:14:17 info: ==================================
+2023-11-27 00:14:17 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:14:17 info: ==================================
+2023-11-27 00:14:24 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:14:24 info: UserService - getUserByIdWithRelation - uid: 22 🦌
+2023-11-27 00:14:24 info: [0mGET /api/v1/user/rel/22 [32m200[0m 33.869 ms - 341[0m
+2023-11-27 00:14:44 info: ==================================
+2023-11-27 00:14:44 info: ======= ENV: "development" =======
+2023-11-27 00:14:44 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:14:44 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:14:44 info: ==================================
+2023-11-27 00:14:45 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:14:45 info: ==================================
+2023-11-27 00:14:48 info: ==================================
+2023-11-27 00:14:48 info: ======= ENV: "development" =======
+2023-11-27 00:14:48 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:14:48 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:14:48 info: ==================================
+2023-11-27 00:14:48 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:14:48 info: ==================================
+2023-11-27 00:14:50 info: ==================================
+2023-11-27 00:14:50 info: ======= ENV: "development" =======
+2023-11-27 00:14:50 info: 🦻 App listening on port - 3001 🦻
+2023-11-27 00:14:50 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-27 00:14:50 info: ==================================
+2023-11-27 00:14:50 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-27 00:14:50 info: ==================================
+2023-11-27 00:14:53 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:14:53 info: UserService - getUserByIdWithRelation - uid: 22 🦌
+2023-11-27 00:14:53 info: [0mGET /api/v1/user/rel/22 [32m200[0m 20.675 ms - 341[0m
+2023-11-27 00:14:59 info: UserController - getUserByIdWithRelation - uid: 1 🦁
+2023-11-27 00:14:59 info: UserService - getUserByIdWithRelation - uid: 1 🦌
+2023-11-27 00:14:59 info: [0mGET /api/v1/user/rel/1 [32m200[0m 14.030 ms - 336[0m
+2023-11-27 00:15:03 info: UserController - getUserByIdWithRelation - uid: 2 🦁
+2023-11-27 00:15:03 info: UserService - getUserByIdWithRelation - uid: 2 🦌
+2023-11-27 00:15:03 info: [0mGET /api/v1/user/rel/2 [32m200[0m 7.641 ms - 324[0m
+2023-11-27 00:15:08 info: UserController - getUserByIdWithRelation - uid: 3 🦁
+2023-11-27 00:15:08 info: UserService - getUserByIdWithRelation - uid: 3 🦌
+2023-11-27 00:15:08 info: [0mGET /api/v1/user/rel/3 [32m200[0m 11.938 ms - 328[0m
+2023-11-27 00:15:14 info: UserController - getUserByIdWithRelation - uid: 22 🦁
+2023-11-27 00:15:14 info: UserService - getUserByIdWithRelation - uid: 22 🦌
+2023-11-27 00:15:14 info: [0mGET /api/v1/user/rel/22 [32m200[0m 9.299 ms - 341[0m

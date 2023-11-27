@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import { DeleteResult, UpdateResult } from "typeorm";
 
-import { HttpResponse } from "../shared/response/http.response";
-import { logger } from "../utils/logger";
-import UserService from "./user.service";
+import { HttpResponse } from "../../shared/response/http.response";
+import { logger } from "../../utils/logger";
+import UserService from "../services/user.service";
 
 class UserController {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -63,6 +63,31 @@ class UserController {
    * @param res
    * @returns
    */
+  public getUserByIdWithRelation = async (req: Request, res: Response) => {
+    try {
+      const { uid } = req.params;
+      logger.info(`${UserController.name} - getUserByIdWithRelation - uid: ${uid} 🦁`);
+      const user = await this.userService.getUserByIdWithRelation(uid);
+
+      if (!user) {
+        logger.warn(`User with id ${uid} not found 🕵️`);
+        return this.httpResponse.NOT_FOUND(res, null);
+      }
+
+      return this.httpResponse.OK(res, user);
+    } catch (error) {
+      logger.error(error);
+
+      return this.httpResponse.ERROR(res, error);
+    }
+  };
+
+  /**
+   *
+   * @param req
+   * @param res
+   * @returns
+   */
   public createUser = async (req: Request, res: Response) => {
     try {
       const { body: userBody } = req;
@@ -88,7 +113,7 @@ class UserController {
       const { id: userId } = req.params;
       const { body: userBody } = req;
       logger.info(`${UserController.name} - updateUserById - id: ${userId} 🦁`);
-      const updatedUser: UpdateResult = await this.userService.updateUserById(userId, userBody);
+      const updatedUser: UpdateResult | undefined = await this.userService.updateUserById(userId, userBody);
 
       if (!updatedUser) {
         return this.httpResponse.NOT_FOUND(res, null);
@@ -112,7 +137,7 @@ class UserController {
     try {
       const { id: userId } = req.params;
       logger.info(`${UserController.name} - deleteUserById - id: ${userId} 🦁`);
-      const deletedUser: DeleteResult | null = await this.userService.deleteUserById(userId);
+      const deletedUser: DeleteResult | null | undefined = await this.userService.deleteUserById(userId);
 
       if (deletedUser?.affected === 0) {
         return this.httpResponse.NOT_FOUND(res, null);

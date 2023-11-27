@@ -54,5 +54,5 @@ export class TestimonialEntity {
   customer!: CustomerEntity;
 
   @OneToMany(() => TestimonialUsageEntity, (testimonialUsage) => testimonialUsage.testimonial)
-  testimonialUsages!: TestimonialUsageEntity;
+  testimonialUsages!: TestimonialUsageEntity[];
 }

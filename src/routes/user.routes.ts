@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response, Router } from "express";
 
 import { BaseRouter } from "../shared/router/base.router";
-import UserController from "../user/user.controller";
+import UserController from "../user/controllers/user.controller";
 import { ValidateMiddlewareDTO } from "../middlewares/validate-dto.middleware";
 import { UserDTO } from "../user/dto/user.dto";
 
@@ -24,6 +24,9 @@ class UserRoutes extends BaseRouter<UserController, ValidateMiddlewareDTO> {
 
     // * Get user by Id
     this.router.get(`${this.path}/:id`, this.userController.getUserById);
+
+    // * Get user by Id with Relation
+    this.router.get(`${this.path}/rel/:uid`, this.userController.getUserByIdWithRelation);
 
     // * Create user
     this.router.post(

@@ -1,0 +1,18 @@
+2023-11-27 00:03:21 error: Not Found
+2023-11-27 00:04:11 error: Not Found
+2023-11-27 00:14:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(70,43): error TS2339: Property 'get' does not exist on type 'UserService'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(70,43): error TS2339: Property 'get' does not exist on type 'UserService'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/user/controllers/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-05792233028646354.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-05792233028646354.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-05792233028646354.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
