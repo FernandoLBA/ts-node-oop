@@ -2,7 +2,7 @@ import { plainToInstance } from "class-transformer";
 import { ValidationError, validate } from "class-validator";
 import { NextFunction, Request, Response } from "express";
 
-import { HttpResponse } from "../shared/response/http.response";
+import { HttpResponse } from "../response/http.response";
 
 export class ValidateMiddlewareDTO {
   constructor(private readonly httpResponse: HttpResponse = new HttpResponse()) {}

@@ -2,7 +2,7 @@ import { NextFunction, Request, Response, Router } from "express";
 
 import { BaseRouter } from "../shared/router/base.router";
 import UserController from "../user/controllers/user.controller";
-import { ValidateMiddlewareDTO } from "../middlewares/validate-dto.middleware";
+import { ValidateMiddlewareDTO } from "../shared/middleware/validate-dto.middleware";
 import { UserDTO } from "../user/dto/user.dto";
 
 class UserRoutes extends BaseRouter<UserController, ValidateMiddlewareDTO> {

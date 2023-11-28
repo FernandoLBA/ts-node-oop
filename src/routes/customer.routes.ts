@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response, Router } from "express";
 
 import CustomerController from "../customer/controllers/customer.controller";
-import { ValidateMiddlewareDTO } from "../middlewares/validate-dto.middleware";
+import { ValidateMiddlewareDTO } from "../shared/middleware/validate-dto.middleware";
 import { BaseRouter } from "../shared/router/base.router";
 import { CustomerDTO } from "../customer/dto/customer.dto";
 

@@ -27,6 +27,8 @@ export class AuthController extends AuthService {
       res.cookie("accessToken", encode.accessToken, { maxAge: 60000 * 60 });
       res.write(JSON.stringify(encode));
       res.end();
+
+      return this.httpResponse.OK(res, encode);
     } catch (error) {
       logger.error(error);
 
