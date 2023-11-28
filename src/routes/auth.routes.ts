@@ -4,7 +4,7 @@ import { AuthController } from "../auth/controller/auth.controller";
 import { SharedMiddleware } from "../shared/middleware/shared.middleware";
 import { BaseRouter } from "../shared/router/base.router";
 
-export class AuthRoutes extends BaseRouter<AuthController, SharedMiddleware> {
+class AuthRoutes extends BaseRouter<AuthController, SharedMiddleware> {
   public path = "/login";
   public router = Router();
   public authController = new AuthController();

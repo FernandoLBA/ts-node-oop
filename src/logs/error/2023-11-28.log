@@ -1,0 +1,414 @@
+2023-11-28 13:30:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,124): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,124): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:34 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:30:34 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:41 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:30:41 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,133): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,133): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:55 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:30:55 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:30:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,144): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,144): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:31:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,144): error TS2554: Expected 3 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,75): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(40,89): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,144): error TS2554: Expected 3 arguments, but got 0.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:31:02 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:31:02 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:31:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,144): error TS2554: Expected 3 arguments, but got 2.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,144): error TS2554: Expected 3 arguments, but got 2.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:31:06 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:31:06 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:31:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,169): error TS2552: Cannot find name 'nex'. Did you mean 'next'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,104): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(40,169): error TS2552: Cannot find name 'nex'. Did you mean 'next'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:31:09 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:31:09 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:59:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(36,8): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(36,22): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(36,37): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(36,43): error TS2693: 'NextFunction' only refers to a type, but is being used as a value here.
+src/routes/user.routes.ts(36,61): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'void' is not assignable to type 'ErrorRequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>> | RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<...>>'.
+src/routes/user.routes.ts(36,87): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(36,92): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(36,97): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(36,11): error TS1005: ',' expected.
+src/routes/user.routes.ts(36,25): error TS1005: ',' expected.
+src/routes/user.routes.ts(36,41): error TS1005: ',' expected.
+src/routes/user.routes.ts(36,57): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(36,8): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(36,22): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(36,37): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(36,43): error TS2693: 'NextFunction' only refers to a type, but is being used as a value here.
+src/routes/user.routes.ts(36,61): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'void' is not assignable to type 'ErrorRequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>> | RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<...>>'.
+src/routes/user.routes.ts(36,87): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(36,92): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(36,97): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(36,11): error TS1005: ',' expected.
+src/routes/user.routes.ts(36,25): error TS1005: ',' expected.
+src/routes/user.routes.ts(36,41): error TS1005: ',' expected.
+src/routes/user.routes.ts(36,57): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:59:11 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:59:11 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:59:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(29,77): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(29,77): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 13:59:18 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 13:59:18 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)

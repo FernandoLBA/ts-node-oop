@@ -453,3 +453,1165 @@ TypeError: Cannot read properties of undefined (reading 'httpResponse')
     at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:280:10)
     at Function.handle (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:175:3)
     at router (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:47:12)
+2023-11-27 22:03:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(7,44): error TS2507: Type '{ constructor(httpResponse?: HttpResponse): void; validator(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<...>, next: NextFunction, DtoClass: any): void; }' is not a constructor function type.
+src/shared/middleware/validate-dto.middleware.ts(8,15): error TS2369: A parameter property is only allowed in a constructor implementation.
+src/shared/middleware/validate-dto.middleware.ts(8,32): error TS6133: 'httpResponse' is declared but its value is never read.
+src/shared/middleware/validate-dto.middleware.ts(20,21): error TS2339: Property 'httpResponse' does not exist on type '{ constructor(httpResponse?: HttpResponse): void; validator(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<...>, next: NextFunction, DtoClass: any): void; }'.
+src/shared/middleware/validate-dto.middleware.ts(10,3): error TS1005: ',' expected.
+src/shared/middleware/validate-dto.middleware.ts(31,1): error TS1005: '{' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(7,44): error TS2507: Type '{ constructor(httpResponse?: HttpResponse): void; validator(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<...>, next: NextFunction, DtoClass: any): void; }' is not a constructor function type.
+src/shared/middleware/validate-dto.middleware.ts(8,15): error TS2369: A parameter property is only allowed in a constructor implementation.
+src/shared/middleware/validate-dto.middleware.ts(8,32): error TS6133: 'httpResponse' is declared but its value is never read.
+src/shared/middleware/validate-dto.middleware.ts(20,21): error TS2339: Property 'httpResponse' does not exist on type '{ constructor(httpResponse?: HttpResponse): void; validator(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<...>, next: NextFunction, DtoClass: any): void; }'.
+src/shared/middleware/validate-dto.middleware.ts(10,3): error TS1005: ',' expected.
+src/shared/middleware/validate-dto.middleware.ts(31,1): error TS1005: '{' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:03:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(7,44): error TS2304: Cannot find name 'Share'.
+src/shared/middleware/validate-dto.middleware.ts(8,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(7,44): error TS2304: Cannot find name 'Share'.
+src/shared/middleware/validate-dto.middleware.ts(8,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:03:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+src/shared/middleware/validate-dto.middleware.ts(9,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+src/shared/middleware/validate-dto.middleware.ts(9,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:03:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:04:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:06:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(23,38): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(23,38): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:06:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:06:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:06:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:06:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,64): error TS2552: Cannot find name 'response'. Did you mean 'Response'?
+src/routes/user.routes.ts(43,74): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,64): error TS2552: Cannot find name 'response'. Did you mean 'Response'?
+src/routes/user.routes.ts(43,74): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:07:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:07:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,94): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,94): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:07:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,98): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,98): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:07:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,103): error TS2339: Property 'm' does not exist on type 'UserRoutes'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,103): error TS2339: Property 'm' does not exist on type 'UserRoutes'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:07:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:07:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,114): error TS2554: Expected 3 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(43,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(43,59): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(43,74): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(43,114): error TS2554: Expected 3 arguments, but got 0.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:08:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,34): error TS1109: Expression expected.
+src/routes/auth.routes.ts(18,36): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,34): error TS1109: Expression expected.
+src/routes/auth.routes.ts(18,36): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/auth.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:08:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,33): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(18,34): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(18,48): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(18,63): error TS6133: 'next' is declared but its value is never read.
+src/routes/auth.routes.ts(18,83): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,33): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(18,34): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(18,48): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(18,63): error TS6133: 'next' is declared but its value is never read.
+src/routes/auth.routes.ts(18,83): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/auth.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:08:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,33): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(18,34): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(18,48): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(18,63): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,33): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(18,34): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(18,48): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(18,63): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/auth.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:09:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,33): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(18,34): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(18,48): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(18,63): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(18,33): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(18,34): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(18,48): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(18,63): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/auth.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:09:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(20,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(20,8): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(20,22): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(20,37): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/auth.routes.ts(20,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+      Type '(req: Request, res: Response, next: NextFunction) => any[]' is not assignable to type 'RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+        Types of parameters 'req' and 'req' are incompatible.
+          Type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>' is missing the following properties from type 'Request': cache, credentials, destination, integrity, and 13 more.
+src/routes/auth.routes.ts(20,8): error TS6133: 'req' is declared but its value is never read.
+src/routes/auth.routes.ts(20,22): error TS6133: 'res' is declared but its value is never read.
+src/routes/auth.routes.ts(20,37): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/auth.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:10:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,7): error TS2349: This expression is not callable.
+  Type 'UserRoutes' has no call signatures.
+src/routes/user.routes.ts(46,8): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(46,22): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(46,37): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(46,43): error TS2693: 'NextFunction' only refers to a type, but is being used as a value here.
+src/routes/user.routes.ts(46,61): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'Response<any, Record<string, any>> | undefined' is not assignable to type 'ErrorRequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>> | RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<...>>'.
+      Type 'undefined' is not assignable to type 'ErrorRequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>> | RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<...>>'.
+src/routes/user.routes.ts(46,92): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(46,97): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(46,102): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(46,11): error TS1005: ',' expected.
+src/routes/user.routes.ts(46,25): error TS1005: ',' expected.
+src/routes/user.routes.ts(46,41): error TS1005: ',' expected.
+src/routes/user.routes.ts(46,57): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,7): error TS2349: This expression is not callable.
+  Type 'UserRoutes' has no call signatures.
+src/routes/user.routes.ts(46,8): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(46,22): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(46,37): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(46,43): error TS2693: 'NextFunction' only refers to a type, but is being used as a value here.
+src/routes/user.routes.ts(46,61): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'Response<any, Record<string, any>> | undefined' is not assignable to type 'ErrorRequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>> | RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<...>>'.
+      Type 'undefined' is not assignable to type 'ErrorRequestHandler<ParamsDictionary, any, any, ParsedQs, Record<string, any>> | RequestHandler<ParamsDictionary, any, any, ParsedQs, Record<...>>'.
+src/routes/user.routes.ts(46,92): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(46,97): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(46,102): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(46,11): error TS1005: ',' expected.
+src/routes/user.routes.ts(46,25): error TS1005: ',' expected.
+src/routes/user.routes.ts(46,41): error TS1005: ',' expected.
+src/routes/user.routes.ts(46,57): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:10:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'UserController' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'UserController' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:10:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,12): error TS2339: Property 'm' does not exist on type 'UserRoutes'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,12): error TS2339: Property 'm' does not exist on type 'UserRoutes'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:10:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,23): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(45,23): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6390680181215995.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:14:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/shared.middleware.ts(20,19): error TS2552: Cannot find name 'object'. Did you mean 'Object'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/shared.middleware.ts(20,19): error TS2552: Cannot find name 'object'. Did you mean 'Object'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/shared.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-05643651675191408.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-05643651675191408.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-05643651675191408.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:23:13 error: uncaughtException: Cannot read properties of undefined (reading 'validateUser')
+TypeError: Cannot read properties of undefined (reading 'validateUser')
+    at Strategy.validate [as _verify] (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:11:41)
+    at Strategy.authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport-local/lib/strategy.js:90:12)
+    at attempt (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+2023-11-27 22:26:33 error: ER_DUP_ENTRY: Duplicate entry 'flba@mail.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'
+2023-11-27 22:27:03 error: uncaughtException: Cannot read properties of undefined (reading 'validateUser')
+TypeError: Cannot read properties of undefined (reading 'validateUser')
+    at Strategy.validate [as _verify] (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:11:41)
+    at Strategy.authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport-local/lib/strategy.js:90:12)
+    at attempt (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+2023-11-27 22:30:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(25,18): error TS2304: Cannot find name 'dt'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(25,18): error TS2304: Cannot find name 'dt'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:30:21 error: uncaughtException: Cannot read properties of undefined (reading 'validateUser')
+TypeError: Cannot read properties of undefined (reading 'validateUser')
+    at Strategy.validate [as _verify] (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:11:41)
+    at Strategy.authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport-local/lib/strategy.js:90:12)
+    at attempt (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+2023-11-27 22:35:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(18,12): error TS2552: Cannot find name 'PassaportUse'. Did you mean 'PassportUse'?
+src/auth/strategies/jwt.strategy.ts(18,25): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(18,12): error TS2552: Cannot find name 'PassaportUse'. Did you mean 'PassportUse'?
+src/auth/strategies/jwt.strategy.ts(18,25): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/jwt.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:36:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(18,12): error TS2552: Cannot find name 'PassaportUse'. Did you mean 'PassportUse'?
+src/auth/strategies/jwt.strategy.ts(18,25): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(18,12): error TS2552: Cannot find name 'PassaportUse'. Did you mean 'PassportUse'?
+src/auth/strategies/jwt.strategy.ts(18,25): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/jwt.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:36:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(18,24): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(18,24): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/jwt.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:36:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/jwt.strategy.ts(20,7): error TS2552: Cannot find name 'JwtStra'. Did you mean 'JwtStrat'?
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/jwt.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:37:34 error: uncaughtException: Cannot read properties of undefined (reading 'validateUser')
+TypeError: Cannot read properties of undefined (reading 'validateUser')
+    at Strategy.validate [as _verify] (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:11:41)
+    at Strategy.authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport-local/lib/strategy.js:90:12)
+    at attempt (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/index.js:346:12)
+2023-11-27 22:37:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/login.strategy.ts(7,7): error TS1155: 'const' declarations must be initialized.
+src/auth/strategies/login.strategy.ts(7,7): error TS7005: Variable 'a' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/login.strategy.ts(7,7): error TS1155: 'const' declarations must be initialized.
+src/auth/strategies/login.strategy.ts(7,7): error TS7005: Variable 'a' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:38:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/login.strategy.ts(7,25): error TS2304: Cannot find name 'Au'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/login.strategy.ts(7,25): error TS2304: Cannot find name 'Au'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:38:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/strategies/login.strategy.ts(12,29): error TS2339: Property 'authService' does not exist on type 'LoginStrategy'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/strategies/login.strategy.ts(12,29): error TS2339: Property 'authService' does not exist on type 'LoginStrategy'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/strategies/login.strategy.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:38:24 error: Cannot read properties of undefined (reading 'generateJwt')
+2023-11-27 22:38:24 error: uncaughtException: Cannot read properties of undefined (reading 'httpResponse')
+TypeError: Cannot read properties of undefined (reading 'httpResponse')
+    at login (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:33:19)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at complete (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:271:13)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:278:15
+    at pass (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:428:14)
+    at Authenticator.transformAuthInfo (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:450:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:275:22
+    at IncomingMessage.req.login.req.logIn (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/http/request.js:44:13)
+    at Strategy.strategy.success (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:256:13)
+2023-11-27 22:39:57 error: Cannot read properties of undefined (reading 'generateJwt')
+2023-11-27 22:39:57 error: uncaughtException: Cannot read properties of undefined (reading 'httpResponse')
+TypeError: Cannot read properties of undefined (reading 'httpResponse')
+    at login (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:33:19)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at complete (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:271:13)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:278:15
+    at pass (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:428:14)
+    at Authenticator.transformAuthInfo (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:450:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:275:22
+    at IncomingMessage.req.login.req.logIn (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/http/request.js:44:13)
+    at Strategy.strategy.success (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:256:13)
+2023-11-27 22:41:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(17,61): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(17,61): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:41:01 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 22:41:01 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:41:08 error: Cannot read properties of undefined (reading 'generateJwt')
+2023-11-27 22:41:08 error: uncaughtException: Cannot read properties of undefined (reading 'httpResponse')
+TypeError: Cannot read properties of undefined (reading 'httpResponse')
+    at login (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:33:19)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at complete (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:271:13)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:278:15
+    at pass (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:428:14)
+    at Authenticator.transformAuthInfo (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:450:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:275:22
+    at IncomingMessage.req.login.req.logIn (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/http/request.js:44:13)
+    at Strategy.strategy.success (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:256:13)
+2023-11-27 22:43:54 error: Cannot read properties of undefined (reading 'generateJwt')
+2023-11-27 22:43:54 error: uncaughtException: Cannot read properties of undefined (reading 'httpResponse')
+TypeError: Cannot read properties of undefined (reading 'httpResponse')
+    at login (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:33:19)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at complete (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:271:13)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:278:15
+    at pass (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:428:14)
+    at Authenticator.transformAuthInfo (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:450:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:275:22
+    at IncomingMessage.req.login.req.logIn (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/http/request.js:44:13)
+    at Strategy.strategy.success (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:256:13)
+2023-11-27 22:49:22 error: Cannot read properties of undefined (reading 'generateJwt')
+2023-11-27 22:49:22 error: uncaughtException: Cannot read properties of undefined (reading 'httpResponse')
+TypeError: Cannot read properties of undefined (reading 'httpResponse')
+    at login (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:33:19)
+    at Layer.handle [as handle_request] (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/router/route.js:144:13)
+    at complete (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:271:13)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:278:15
+    at pass (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:428:14)
+    at Authenticator.transformAuthInfo (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/authenticator.js:450:5)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:275:22
+    at IncomingMessage.req.login.req.logIn (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/http/request.js:44:13)
+    at Strategy.strategy.success (/Users/fernandolba/development/my-commerce/back/node_modules/passport/lib/middleware/authenticate.js:256:13)
+2023-11-27 22:51:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(19,22): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(19,22): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:51:22 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 22:51:22 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:51:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(15,48): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(15,48): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:51:26 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 22:51:26 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:51:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(15,53): error TS1005: '=>' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/controller/auth.controller.ts(15,53): error TS1005: '=>' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/auth/controller/auth.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:51:29 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 22:51:29 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 22:52:15 error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`testimonials_db_dev`.`customer`, CONSTRAINT `FK_5d1f609371a285123294fddcf3a` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2023-11-27 22:52:46 error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`testimonials_db_dev`.`customer`, CONSTRAINT `FK_5d1f609371a285123294fddcf3a` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2023-11-27 23:48:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,47): error TS2339: Property 'this' does not exist on type 'UserRoutes'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,47): error TS2339: Property 'this' does not exist on type 'UserRoutes'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:34 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 23:48:34 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,41): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'ValidateMiddlewareDTO' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(40,57): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,41): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'ValidateMiddlewareDTO' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(40,57): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 23:48:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,58): error TS2339: Property 'this' does not exist on type 'ValidateMiddlewareDTO'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,58): error TS2339: Property 'this' does not exist on type 'ValidateMiddlewareDTO'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:41 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 23:48:41 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,73): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(40,73): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-27 23:48:44 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-27 23:48:44 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-4874387379134182.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)

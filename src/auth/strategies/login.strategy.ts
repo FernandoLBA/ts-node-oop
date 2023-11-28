@@ -4,14 +4,15 @@ import { UserEntity } from "../../user/entities/user.entity";
 import { PassportUse } from "../../utils/passport-use";
 import { AuthService } from "../services/auth.services";
 
+const authService = new AuthService();
 export class LoginStrategy {
-  constructor(private readonly authService: AuthService = new AuthService()) {}
+  // constructor(private readonly authService: AuthService = new AuthService()) {}
 
   public async validate(email: string, password: string, done: any): Promise<UserEntity> {
-    const user = await this.authService.validateUser(email, password);
+    const user = await authService.validateUser(email, password);
 
     if (!user) {
-      return done(null, false, { message: "Invalid wmail or password" });
+      return done(null, false, { message: "Invalid email or password" });
     }
 
     return done(null, user);

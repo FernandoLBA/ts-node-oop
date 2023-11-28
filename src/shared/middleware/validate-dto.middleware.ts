@@ -2,12 +2,16 @@ import { plainToInstance } from "class-transformer";
 import { ValidationError, validate } from "class-validator";
 import { NextFunction, Request, Response } from "express";
 
-import { HttpResponse } from "../response/http.response";
+import { SharedMiddleware } from "./shared.middleware";
+import { sanitize } from "class-sanitizer";
 
-export class ValidateMiddlewareDTO {
-  constructor(private readonly httpResponse: HttpResponse = new HttpResponse()) {}
+export class ValidateMiddlewareDTO extends SharedMiddleware {
+  constructor() {
+    super();
+  }
 
   validator(req: Request, res: Response, next: NextFunction, DtoClass: any) {
+    console.log("🚀 ~ file: validate-dto.middleware.ts:14 ~ ValidateMiddlewareDTO ~ validator ~ DtoClass:", DtoClass);
     // * Recibe una Clase (DtoClass) para o validar un objeto plano (body)
     // * y retornar una instancia de una clase validada y limpia
     const dtoInstance = plainToInstance(DtoClass, req.body);
@@ -16,9 +20,14 @@ export class ValidateMiddlewareDTO {
       // * Si existen errores de validación
       if (err.length > 0) {
         const dtoErrors = err.map((error: ValidationError) => (Object as any).values(error.constraints)).join(", ");
+        console.log(
+          "🚀 ~ file: validate-dto.middleware.ts:22 ~ ValidateMiddlewareDTO ~ validate ~ dtoErrors:",
+          dtoErrors,
+        );
 
         return this.httpResponse.BAD_REQUEST(res, dtoErrors);
       } else {
+        sanitize(dtoInstance);
         // * actualiza el body con el objeto tipado
         req.body = dtoInstance;
 

@@ -12,9 +12,9 @@ export class AuthController extends AuthService {
     super();
   }
 
-  async login(req: Request, res: Response) {
+  public login = async (req: Request, res: Response) => {
     try {
-      logger.info(`${AuthController.name} - login 🦁`);
+      logger.info(`${AuthController.name} - login - body: ${req.body} 🦁`);
       const userEncode = req.user as UserEntity;
       const encode = await this.generateJwt(userEncode);
 
@@ -27,12 +27,10 @@ export class AuthController extends AuthService {
       res.cookie("accessToken", encode.accessToken, { maxAge: 60000 * 60 });
       res.write(JSON.stringify(encode));
       res.end();
-
-      return this.httpResponse.OK(res, encode);
     } catch (error) {
       logger.error(error);
 
       return this.httpResponse.ERROR(res, error);
     }
-  }
+  };
 }
