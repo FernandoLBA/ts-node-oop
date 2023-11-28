@@ -13,6 +13,7 @@ import corsConfig from "./config/cors.config";
 import { Routes } from "./interfaces/route.interface";
 import { logger, stream } from "./utils/logger";
 import { LoginStrategy } from "./auth/strategies/login.strategy";
+import { JwtStrategy } from "./auth/strategies/jwt.strategy";
 
 class App extends ConfigServer {
   public app: Application;
@@ -55,8 +56,12 @@ class App extends ConfigServer {
     });
   }
 
+  /**
+   * Esto retorna un array donde se inyectan las estrategias de passport
+   * @returns
+   */
   public passportUse() {
-    return [new LoginStrategy().use];
+    return [new LoginStrategy().use, new JwtStrategy().use];
   }
 
   /**
