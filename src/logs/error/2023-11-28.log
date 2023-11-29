@@ -4472,3 +4472,15 @@ Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to databas
     at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
     at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
     at TestimonialService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:34:26)
+2023-11-28 23:12:10 error: uncaughtException: listen EADDRINUSE: address already in use :::6000
+Error: listen EADDRINUSE: address already in use :::6000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/fernandolba/development/my-commerce/back/src/app.ts:120:14)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:24:5)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-1614972619824857.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
