@@ -14,7 +14,6 @@ export class SharedMiddleware {
    * @returns
    */
   passAuth(type: string) {
-    console.log("🚀 ~ file: shared.middleware.ts:17 ~ SharedMiddleware ~ passAuth ~ type:", type);
     // * No guarda la sesión ya que usa cookies
     return passport.authenticate(type, { session: false });
   }

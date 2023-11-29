@@ -4,8 +4,6 @@ import { DataSource } from "typeorm";
 import { AppDataSource } from "./data.source";
 
 // * Presetea el config de dotenv y asigna la ruta con nombre del archivo .env según el ambiente
-console.log(">>>", process.env.NODE_ENV);
-
 config({
   path: `.env.${process.env.NODE_ENV || "development"}.local`,
 });

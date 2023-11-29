@@ -730,3 +730,537 @@ Error: listen EADDRINUSE: address already in use :::6000
     at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
     at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-6632160116962653.js:69:33)
     at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at CustomerService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at TestimonialService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at CustomerService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at TestimonialUsageService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at TestimonialService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at TestimonialUsageService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:53:55 error: uncaughtException: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'userrfv'@'%' to database 'testimonials_db_dev'
+    at Handshake.Sequence._packetToError (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:343:12)
+    --------------------
+    at Protocol._enqueue (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:400:36)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (/Users/fernandolba/development/my-commerce/back/src/config/config.ts:36:26)
+2023-11-29 00:55:27 error: uncaughtException: Pool is closed.
+Error: Pool is closed.
+    at /Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:149:17
+    at Array.forEach (<anonymous>)
+    at Pool.releaseConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:148:37)
+    at Pool._removeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:258:8)
+    at Pool.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:182:10)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:463:27
+    at new Promise (<anonymous>)
+    at MysqlDriver.disconnect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:462:20)
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:304:27)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at CustomerService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialUsageService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialUsageService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 00:55:27 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+    at Query.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+2023-11-29 01:07:45 error: uncaughtException: Pool is closed.
+Error: Pool is closed.
+    at /Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:149:17
+    at Array.forEach (<anonymous>)
+    at Pool.releaseConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:148:37)
+    at Pool._removeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:258:8)
+    at Pool.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:182:10)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:463:27
+    at new Promise (<anonymous>)
+    at MysqlDriver.disconnect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:462:20)
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:304:27)
+2023-11-29 01:07:45 error: uncaughtException: Pool is closed.
+Error: Pool is closed.
+    at /Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:149:17
+    at Array.forEach (<anonymous>)
+    at Pool.releaseConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:148:37)
+    at Pool._removeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:258:8)
+    at Pool.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:182:10)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:463:27
+    at new Promise (<anonymous>)
+    at MysqlDriver.disconnect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:462:20)
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:304:27)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialUsageService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at CustomerService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialUsageService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:07:45 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+    at Query.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
+2023-11-29 01:08:39 error: uncaughtException: Pool is closed.
+Error: Pool is closed.
+    at /Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:149:17
+    at Array.forEach (<anonymous>)
+    at Pool.releaseConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:148:37)
+    at Pool._removeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:258:8)
+    at Pool.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Pool.js:182:10)
+    at /Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:463:27
+    at new Promise (<anonymous>)
+    at MysqlDriver.disconnect (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlDriver.ts:462:20)
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:304:27)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialUsageService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UserService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at TestimonialService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:302:19)
+    at DataSource.initialize (/Users/fernandolba/development/my-commerce/back/src/data-source/DataSource.ts:277:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at CustomerService.initRepository (/Users/fernandolba/development/my-commerce/back/src/config/base.service.ts:27:24)
+2023-11-29 01:08:39 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'user' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'user' already exists
+    at Query.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/fernandolba/development/my-commerce/back/node_modules/mysql/lib/Connection.js:88:28)
