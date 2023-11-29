@@ -1,8 +1,7 @@
 version: "3.0"
 
 services:
-  # testimonials_db_dev: (DESARROLLO)
-  testimonials_db_prod:
+  testimonials_db_dev:
     image: mysql/mysql-server:5.7
     volumes:
       - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
@@ -23,5 +22,5 @@ services:
     ports:
       - "6000:6000"
     depends_on:
-      - testimonials_db_prod
+      - testimonials_db_dev
     restart: on-failure
