@@ -10,6 +10,13 @@ export class ValidateMiddlewareDTO extends SharedMiddleware {
     super();
   }
 
+  /**
+   * Valida la data que recibe
+   * @param req
+   * @param res
+   * @param next
+   * @param DtoClass
+   */
   validator(req: Request, res: Response, next: NextFunction, DtoClass: any) {
     console.log("🚀 ~ file: validate-dto.middleware.ts:14 ~ ValidateMiddlewareDTO ~ validator ~ DtoClass:", DtoClass);
     // * Recibe una Clase (DtoClass) para o validar un objeto plano (body)

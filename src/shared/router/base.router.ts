@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 // * Esta es una clase genérica, que recibe un controller y un middleware
-// * su función es generar rutas que
+// * su función es generar middlewares
 export class BaseRouter<T, U> {
   public router: Router;
   public controller: T;
