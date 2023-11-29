@@ -281,6 +281,8 @@ class UserRoutes extends BaseRouter<UserController, ValidateMiddlewareDTO> {
      *        schema:
      *          type: string
      *    tags: [Users]
+     *    security:
+     *      - bearerAuth: []
      *    responses:
      *      200:
      *        description: ✅ - OK

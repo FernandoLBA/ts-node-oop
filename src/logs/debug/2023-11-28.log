@@ -5120,3 +5120,29 @@
 2023-11-28 22:15:21 info: [0mGET /api/v1/docs/swagger-ui-standalone-preset.js [36m304[0m 0.708 ms - -[0m
 2023-11-28 22:15:21 info: [0mGET /api/v1/docs/swagger-ui-init.js [32m200[0m 1.403 ms - 30384[0m
 2023-11-28 22:15:22 info: [0mGET /api/v1/docs/favicon-32x32.png [36m304[0m 0.915 ms - -[0m
+2023-11-28 22:33:05 info: [0mGET /api/v1/user/1 [33m401[0m 4.036 ms - -[0m
+2023-11-28 22:33:43 info: TestimonialController - getTestimonialById - id: 1 🦁
+2023-11-28 22:33:43 info: TestimonialService - getTestimonialById - id: 1 🦌
+2023-11-28 22:33:43 info: [0mGET /api/v1/testimonial/1 [36m304[0m 26.327 ms - -[0m
+2023-11-28 22:33:55 info: [0mGET /api/v1/user/1 [33m401[0m 0.338 ms - -[0m
+2023-11-28 22:34:01 info: [0mGET /api/v1/user/1 [33m401[0m 0.487 ms - -[0m
+2023-11-28 22:34:20 info: [0mGET /api/v1/user/1 [33m401[0m 0.419 ms - -[0m
+2023-11-28 22:34:26 info: [0mGET /api/v1/user/1 [33m401[0m 0.360 ms - -[0m
+2023-11-28 22:34:37 info: [0mGET /api/v1/users [33m401[0m 0.895 ms - -[0m
+2023-11-28 22:35:56 info: ==================================
+2023-11-28 22:35:56 info: ======= ENV: "development" =======
+2023-11-28 22:35:56 info: 🦻 App listening on port - 3001 🦻
+2023-11-28 22:35:56 info: 🔗 http://localhost:3001/api/v1 🔗
+2023-11-28 22:35:56 info: ==================================
+2023-11-28 22:35:56 info: ======= 🔌 DB Connected 🔌 =======
+2023-11-28 22:35:56 info: ==================================
+2023-11-28 22:35:58 info: [0mGET /api/v1/docs/ [36m304[0m 10.411 ms - -[0m
+2023-11-28 22:35:58 info: [0mGET /api/v1/docs/swagger-ui.css [36m304[0m 2.117 ms - -[0m
+2023-11-28 22:35:58 info: [0mGET /api/v1/docs/swagger-ui-standalone-preset.js [36m304[0m 1.381 ms - -[0m
+2023-11-28 22:35:58 info: [0mGET /api/v1/docs/swagger-ui-bundle.js [36m304[0m 0.556 ms - -[0m
+2023-11-28 22:35:58 info: [0mGET /api/v1/docs/swagger-ui-init.js [32m200[0m 1.358 ms - 30480[0m
+2023-11-28 22:35:58 info: [0mGET /api/v1/docs/favicon-32x32.png [36m304[0m 0.704 ms - -[0m
+2023-11-28 22:36:27 info: UserController - getUserById - id: 1 🦁
+2023-11-28 22:36:27 info: UserService - getUserById - id: 1 🦌
+2023-11-28 22:36:27 info: [0mGET /api/v1/user/1 [32m200[0m 21.649 ms - 220[0m
+2023-11-28 22:36:45 info: [0mGET /api/v1/users [33m401[0m 0.608 ms - -[0m
