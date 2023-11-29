@@ -3,7 +3,6 @@ import { ValidationError, validate } from "class-validator";
 import { NextFunction, Request, Response } from "express";
 
 import { SharedMiddleware } from "./shared.middleware";
-import { sanitize } from "class-sanitizer";
 
 export class ValidateMiddlewareDTO extends SharedMiddleware {
   constructor() {
@@ -34,7 +33,6 @@ export class ValidateMiddlewareDTO extends SharedMiddleware {
 
         return this.httpResponse.BAD_REQUEST(res, dtoErrors);
       } else {
-        sanitize(dtoInstance);
         // * actualiza el body con el objeto tipado
         req.body = dtoInstance;
 

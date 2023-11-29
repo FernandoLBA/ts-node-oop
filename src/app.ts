@@ -14,6 +14,9 @@ import { Routes } from "./interfaces/route.interface";
 import { logger, stream } from "./utils/logger";
 import { LoginStrategy } from "./auth/strategies/login.strategy";
 import { JwtStrategy } from "./auth/strategies/jwt.strategy";
+import swaggerJSDoc from "swagger-jsdoc";
+import { swaggerOptions } from "./config/swagger.config";
+import swaggerUi from "swagger-ui-express";
 
 class App extends ConfigServer {
   public app: Application;
@@ -126,7 +129,8 @@ class App extends ConfigServer {
   }
 
   private initializeSwagger() {
-    // TODO: init swagger
+    const configSwagger = swaggerJSDoc(swaggerOptions);
+    this.app.use(`/api/${API_VERSION}/docs`, swaggerUi.serve, swaggerUi.setup(configSwagger));
   }
 
   private initializeErrorHandling() {

@@ -2997,3 +2997,902 @@ Error: Channel closed
     at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:1091:32)
     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:23 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:23 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:23 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:28 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:28 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:28 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:32 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:32 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:32 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:37 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:46 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:46 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:46 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:49 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:50 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:50 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:10:54 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/fernandolba/development/my-commerce/back/node_modules/express/lib/application.js:217:11)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:14)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:39:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+2023-11-28 20:10:54 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:10:54 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:13:02 error: uncaughtException: must provide pattern
+Error: must provide pattern
+    at new GlobSync (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/glob/sync.js:31:11)
+    at Function.globSync [as sync] (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/glob/sync.js:26:10)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/utils.js:13:31
+    at Array.map (<anonymous>)
+    at convertGlobPaths (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/utils.js:13:6)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:196:26)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+2023-11-28 20:13:02 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:13:02 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:13:05 error: uncaughtException: EISDIR: illegal operation on a directory, read './src'
+Error: EISDIR: illegal operation on a directory, read './src'
+    at readFileSyncUtf8 (node:internal/fs/read/utf8:20:3)
+    at Object.readFileSync (node:fs:467:12)
+    at extractAnnotations (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/utils.js:54:26)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:200:9)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+2023-11-28 20:13:05 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:13:05 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:13:09 error: uncaughtException: EISDIR: illegal operation on a directory, read './src/routes/'
+Error: EISDIR: illegal operation on a directory, read './src/routes/'
+    at readFileSyncUtf8 (node:internal/fs/read/utf8:20:3)
+    at Object.readFileSync (node:fs:467:12)
+    at extractAnnotations (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/utils.js:54:26)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:200:9)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+2023-11-28 20:13:09 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:13:09 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:13:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(8,1): error TS1206: Decorators are not valid here.
+src/routes/testimonial.routes.ts(37,16): error TS2304: Cannot find name 'TestimonialRoutes'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(8,1): error TS1206: Decorators are not valid here.
+src/routes/testimonial.routes.ts(37,16): error TS2304: Cannot find name 'TestimonialRoutes'.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:13:54 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:13:54 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:14:14 error: uncaughtException: Cannot read properties of null (reading 'indexOf')
+TypeError: Cannot read properties of null (reading 'indexOf')
+    at Object.parse (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/parse-3997f544.js:1874:11)
+    at Object.parseDocument (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/index.js:41:24)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:229:45)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 20:14:14 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:14:14 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:14:58 error: uncaughtException: Cannot read properties of null (reading 'indexOf')
+TypeError: Cannot read properties of null (reading 'indexOf')
+    at Object.parse (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/parse-3997f544.js:1874:11)
+    at Object.parseDocument (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/index.js:41:24)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:229:45)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 20:14:58 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:14:58 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:15:01 error: uncaughtException: Cannot read properties of null (reading 'indexOf')
+TypeError: Cannot read properties of null (reading 'indexOf')
+    at Object.parse (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/parse-3997f544.js:1874:11)
+    at Object.parseDocument (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/index.js:41:24)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:229:45)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 20:15:01 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:15:01 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:18:54 error: Not Found
+2023-11-28 20:19:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(49,14): error TS2304: Cannot find name 'description'.
+src/routes/testimonial.routes.ts(49,27): error TS2304: Cannot find name 'server'.
+src/routes/testimonial.routes.ts(49,34): error TS2304: Cannot find name 'side'.
+src/routes/testimonial.routes.ts(49,39): error TS2552: Cannot find name 'error'. Did you mean 'Error'?
+src/routes/testimonial.routes.ts(48,5): error TS1109: Expression expected.
+src/routes/testimonial.routes.ts(48,15): error TS1005: ';' expected.
+src/routes/testimonial.routes.ts(49,5): error TS1109: Expression expected.
+src/routes/testimonial.routes.ts(49,25): error TS1005: ';' expected.
+src/routes/testimonial.routes.ts(49,27): error TS1434: Unexpected keyword or identifier.
+src/routes/testimonial.routes.ts(49,34): error TS1434: Unexpected keyword or identifier.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(49,14): error TS2304: Cannot find name 'description'.
+src/routes/testimonial.routes.ts(49,27): error TS2304: Cannot find name 'server'.
+src/routes/testimonial.routes.ts(49,34): error TS2304: Cannot find name 'side'.
+src/routes/testimonial.routes.ts(49,39): error TS2552: Cannot find name 'error'. Did you mean 'Error'?
+src/routes/testimonial.routes.ts(48,5): error TS1109: Expression expected.
+src/routes/testimonial.routes.ts(48,15): error TS1005: ';' expected.
+src/routes/testimonial.routes.ts(49,5): error TS1109: Expression expected.
+src/routes/testimonial.routes.ts(49,25): error TS1005: ';' expected.
+src/routes/testimonial.routes.ts(49,27): error TS1434: Unexpected keyword or identifier.
+src/routes/testimonial.routes.ts(49,34): error TS1434: Unexpected keyword or identifier.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:19:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 20:19:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 20:49:19 error: Not Found
+2023-11-28 20:50:12 error: Not Found
+2023-11-28 21:14:21 error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:253:25)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 21:14:21 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:14:21 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:30:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(26,12): error TS18004: No value exists in scope for the shorthand property 'component'. Either declare one or provide an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(26,12): error TS18004: No value exists in scope for the shorthand property 'component'. Either declare one or provide an initializer.
+
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:30:13 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:30:13 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:31:30 error: uncaughtException: Cannot read properties of null (reading 'indexOf')
+TypeError: Cannot read properties of null (reading 'indexOf')
+    at Object.parse (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/parse-3997f544.js:1874:11)
+    at Object.parseDocument (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/index.js:41:24)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:229:45)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 21:31:30 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:31:30 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:32:33 error: uncaughtException: Cannot read properties of null (reading 'indexOf')
+TypeError: Cannot read properties of null (reading 'indexOf')
+    at Object.parse (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/parse-3997f544.js:1874:11)
+    at Object.parseDocument (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/node_modules/yaml/dist/index.js:41:24)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:229:45)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 21:32:33 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:32:33 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:32:39 error: uncaughtException: Cannot read properties of null (reading 'name')
+TypeError: Cannot read properties of null (reading 'name')
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/utils.js:96:22)
+    at organize (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:170:17)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:320:7)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+2023-11-28 21:32:39 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:32:39 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:49:00 error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:253:25)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 21:49:00 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:49:00 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:49:21 error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:253:25)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 21:49:21 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:49:21 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 21:50:29 error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:253:25)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 21:50:30 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 21:50:30 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-28 22:14:28 error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at /Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/specification.js:253:25)
+    at module.exports (/Users/fernandolba/development/my-commerce/back/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at App.initializeSwagger (/Users/fernandolba/development/my-commerce/back/src/app.ts:132:39)
+    at new App (/Users/fernandolba/development/my-commerce/back/src/app.ts:40:10)
+    at Object.<anonymous> (/Users/fernandolba/development/my-commerce/back/src/index.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._compile (/Users/fernandolba/development/my-commerce/back/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:33)
+2023-11-28 22:14:28 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at Object.exports.send (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at tryToRequire (/Users/fernandolba/development/my-commerce/back/src/util/ImportUtils.ts:21:17)
+2023-11-28 22:14:28 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:405:5)
+    at process.target.send (node:internal/child_process:754:16)
+    at compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:46:21)
+    at Module.m._compile (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/y2/tl2vlwcd3x1bl4vhnjklflkc0000gn/T/ts-node-dev-hook-3968734429455405.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Users/fernandolba/development/my-commerce/back/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
