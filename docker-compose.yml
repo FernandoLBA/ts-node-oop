@@ -9,7 +9,6 @@ services:
     ports:
       - "3412:3306"
     environment:
-      # MYSQL_DATABASE: testimonials_db_dev (DESARROLLO)
       MYSQL_DATABASE: testimonials_db_prod
       MYSQL_ROOT_USER: userrfv
       MYSQL_USER: userrfv
@@ -18,7 +17,7 @@ services:
 
   api:
     build: .
-    container_name: api_container_testimonial
+    container_name: api_prod_testimonial
     ports:
       - "6000:6000"
     depends_on:

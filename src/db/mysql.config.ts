@@ -20,6 +20,6 @@ export const mySqlConnection = async (): Promise<DataSource> => {
   } catch (error) {
     console.log("🚀 ~ file: mysql.config.ts:21 ~ mySqlConnection ~ error:", error);
 
-    throw new Error(`Error trying to connect with MySql`);
+    throw new Error(`Error trying to connect to MySql`);
   }
 };
